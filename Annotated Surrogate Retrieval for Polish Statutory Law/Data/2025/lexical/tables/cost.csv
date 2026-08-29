@@ -1,0 +1,5 @@
+method,latency_p50_ms,latency_p95_ms,retrieval_p50_ms,llm_calls_per_q,tokens_in_per_q,tokens_out_per_q,usd_per_100q
+bm25-raw,709,983,24,1,4481,50,0.12
+bm25-lemma,723,1037,42,1,4500,50,0.12
+bm25-surrogate,671,980,10,1,3660,50,0.099
+bm25-expanded,1817,2228,1129,2,4999,263,0.164

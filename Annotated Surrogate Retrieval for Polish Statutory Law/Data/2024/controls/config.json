@@ -1,0 +1,67 @@
+{
+  "dataset": "/app/src/scripts/exam-adw-2024.resolved.json",
+  "split": null,
+  "methods": [
+    "closed-book",
+    "random",
+    "oracle",
+    "oracle-doc"
+  ],
+  "seed": 1,
+  "noGenerate": false,
+  "cfg": {
+    "k": 10,
+    "depth": 100,
+    "budget": 6000,
+    "charsPerToken": 2.3,
+    "candidateDocs": 40,
+    "rerankIn": 40,
+    "rerankOut": 8,
+    "concurrency": 8,
+    "maxArticleChars": 6000,
+    "rrfK0": 20,
+    "candidateArticles": 100
+  },
+  "weights": {
+    "doc": {
+      "concept": 3,
+      "title": 2,
+      "summary": 2,
+      "field": 1,
+      "tier1Bonus": 10
+    },
+    "art": {
+      "theme": 3,
+      "concept": 2,
+      "covers": 20,
+      "summary": 2,
+      "pin": 1000
+    }
+  },
+  "triadWeights": {
+    "wDense": 1,
+    "wCovers": 1,
+    "wText": 0.7,
+    "actBoost": 0.35,
+    "themeBoost": 0.04,
+    "conceptBoost": 0.02,
+    "repealPenalty": 0.15,
+    "pinBoost": 1
+  },
+  "model": "gemini-3.1-flash-lite",
+  "thinking": 0,
+  "prices": {
+    "in": 0.25,
+    "out": 1.5
+  },
+  "corpus": {
+    "mode": "all",
+    "builtAt": "2026-08-23T19:01:17.293Z",
+    "nDocuments": 1133,
+    "nArticles": 82508,
+    "nArticlesWithSurrogate": 22241,
+    "surrogateCoverage": 0.2696,
+    "avgArticleChars": 1334
+  },
+  "startedAt": "2026-08-23T19:28:28.132Z"
+}

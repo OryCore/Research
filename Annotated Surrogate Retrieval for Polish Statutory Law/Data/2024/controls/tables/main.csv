@@ -1,0 +1,5 @@
+method,n,n_retrievable,accuracy,citation_accuracy,citation_gap_closed,recall@10*,mrr*,ndcg@10*,gold_in_context_rate,errors
+oracle,150,133,0.94,0.8120300751879699,1,1,1,1,0.8867,0
+oracle-doc,150,133,0.76,0.43609022556390975,-0.3158,0.0401,0.0273,0.0206,0.0333,0
+closed-book,150,133,0.9266666666666666,0.5263157894736842,0,0,0,0,0,0
+random,150,133,0.72,0.2932330827067669,-0.8158,0,0.0001,0,0,0

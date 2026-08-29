@@ -1,0 +1,5 @@
+method,latency_p50_ms,latency_p95_ms,retrieval_p50_ms,llm_calls_per_q,tokens_in_per_q,tokens_out_per_q,usd_per_100q
+oracle,632,881,0,1,660,47,0.024
+oracle-doc,665,819,3,1,3744,46,0.101
+closed-book,657,870,0,1,292,45,0.014
+random,670,966,0,1,4881,40,0.128

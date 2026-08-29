@@ -1,0 +1,7 @@
+method,latency_p50_ms,latency_p95_ms,retrieval_p50_ms,llm_calls_per_q,tokens_in_per_q,tokens_out_per_q,usd_per_100q
+full-hybrid,8053,13990,7248,3,7326,299,0.228
+full,8136,13985,7432,3,7472,301,0.232
+no-covers,5724,7944,5018,3,7476,300,0.232
+no-concepts,7342,12025,6595,3,7407,299,0.23
+no-analysis,8990,13422,8288,2,7205,88,0.193
+no-rerank,7272,13283,6467,2,4233,260,0.145

@@ -1,0 +1,5 @@
+method,recall@1*,recall@5*,recall@10*,recall@20*,recall@50*,recall@100*,hit@10*,doc_hit@10*,mrr*,ndcg@10*,median_depth_returned
+oracle,0.9875,1,1,1,1,1,1,1,1,1,1
+oracle-doc,0.0025,0.0251,0.0401,0.0777,0.2206,0.3584,0.0451,1,0.0273,0.0206,100
+closed-book,0,0,0,0,0,0,0,0,0,0,0
+random,0,0,0,0,0,0.0075,0,0.0827,0.0001,0,100

@@ -1,0 +1,3547 @@
+{
+  "exam": {
+    "id": "adw-rad-2024-09-28",
+    "type": "adwokacka_radcowska",
+    "date": "2024-09-28",
+    "source_questions": "list2024.pdf",
+    "source_answers": "answers2024.pdf",
+    "parsed_at": "2026-08-20T18:54:35.585Z",
+    "parser_version": "2.0.0"
+  },
+  "stats": {
+    "n_questions": 150,
+    "n_with_answer": 150,
+    "n_with_gold": 147,
+    "n_with_superscript_article": 0,
+    "answer_distribution": {
+      "C": 43,
+      "A": 48,
+      "B": 59
+    },
+    "alignment": [
+      {
+        "offset": -2,
+        "checked": 144,
+        "match": 0.701
+      },
+      {
+        "offset": -1,
+        "checked": 145,
+        "match": 0.821
+      },
+      {
+        "offset": 0,
+        "checked": 146,
+        "match": 1
+      },
+      {
+        "offset": 1,
+        "checked": 145,
+        "match": 0.821
+      },
+      {
+        "offset": 2,
+        "checked": 144,
+        "match": 0.708
+      }
+    ],
+    "warnings": [
+      "question 55: act not identified in \"o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych\"",
+      "question 61: act not identified in \"art. 19f ust. 2 ustawy z d nia 21 czerwca 2001 r. o ochronie praw lokatorów, mieszkaniowym zasobie gminy i o zmianie Kodeksu cywilnego\"",
+      "question 78: act not identified in \"art. 47 § 1 k.r. i o\"",
+      "question 122: act not identified in \"art. 114 ustawy z dnia – Prawo o postępowaniu przed sądami administracyjnymi\""
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Zgodnie z Kodeksem karnym, występkiem jest czyn zabroniony zagrożony:",
+      "options": {
+        "A": "grzywną powyżej 10 stawek dziennych i karą ograniczenia wolności,",
+        "B": "grzywną nieprzekraczającą 10 000 złotych lub karą ograniczenia wolności do 1 miesiąca,",
+        "C": "grzywną powyżej 30 stawek dziennych albo powyżej 5 000 złotych, karą ograniczenia wolności przekraczającą miesiąc albo karą pozbawienia wolności przekraczającą miesiąc."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 7 § 3 k.k.",
+      "gold": [
+        {
+          "article": "7",
+          "article_sup": null,
+          "article_key": "arti.7",
+          "unit": "§ 3",
+          "act_abbrev": "k.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Zgodnie z Kodeksem karnym, kto w zamiarze, aby inna osoba dokonała czynu zabronionego, swoim zachowaniem ułatwia jego popełnienie dostarczając narzędzie, odpowiada za:",
+      "options": {
+        "A": "sprawstwo kierownicze,",
+        "B": "podżeganie,",
+        "C": "pomocnictwo."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 18 § 3 k.k.",
+      "gold": [
+        {
+          "article": "18",
+          "article_sup": null,
+          "article_key": "arti.18",
+          "unit": "§ 3",
+          "act_abbrev": "k.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Zgodnie z Kodeksem karnym, kto przekracza granice obrony koniecznej pod wpływem strachu lub wzburzenia usprawiedliwionych okolicznościami zamachu:",
+      "options": {
+        "A": "nie podlega karze,",
+        "B": "nie popełnia przestępstwa,",
+        "C": "podlega karze, lecz sąd może zastosować nadzwyczajne złagodzenie kary."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 25 § 3 k.k.",
+      "gold": [
+        {
+          "article": "25",
+          "article_sup": null,
+          "article_key": "arti.25",
+          "unit": "§ 3",
+          "act_abbrev": "k.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Zgodnie z Kodeksem karnym, nie popełnia przestępstwa, kto:",
+      "options": {
+        "A": "działając jako sprawca, dobrowolnie zapobiegł dokonaniu czynu zabronionego,",
+        "B": "pozostaje w usprawiedliwionym błędzie co do okoliczności stanowiącej znamię czynu zabronionego,",
+        "C": "działając jako sprawca czynu zabronionego w chwili czynu miał ograniczoną zdolność jego rozpoznania w stopniu znacznym."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 28 § 1 k.k.",
+      "gold": [
+        {
+          "article": "28",
+          "article_sup": null,
+          "article_key": "arti.28",
+          "unit": "§ 1",
+          "act_abbrev": "k.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Zgodnie z Kodeksem karnym, nieodpłatna, kontrolowana praca na cele społeczne wykonywana w ramach kary ograniczenia wolności jest wykonywana w wymiarze:",
+      "options": {
+        "A": "od 20 do 40 godzin w stosunku miesięcznym,",
+        "B": "od 20 do 50 godzin w stosunku miesięcznym,",
+        "C": "od 10 do 40 godzin w stosunku miesięcznym."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 35 § 1 k.k.",
+      "gold": [
+        {
+          "article": "35",
+          "article_sup": null,
+          "article_key": "arti.35",
+          "unit": "§ 1",
+          "act_abbrev": "k.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Zgodnie z Kodeksem karnym, w sprawie o występek zagrożony karą pozbawienia wolności, niezależnie od dolnej granicy ustawowego zagrożenia przewidzianego w ustawie za dany czyn, jeżeli górna granica ustawowego zagrożenia wynosi przynajmniej 10 lat, sąd może orzec jednocześnie:",
+      "options": {
+        "A": "karę pozbawienia wolności w wymiarze 3 miesięcy, oraz karę ograniczenia wolności do roku,",
+        "B": "karę pozbawienia wolności w wymiarze nieprzekraczającym 6 miesięcy, oraz karę ograniczenia wolności do lat 2,",
+        "C": "karę pozbawienia wolności w wymiarze nieprzekraczającym 3 miesięcy, oraz karę ograniczenia wolności do lat 2."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 37b k.k.",
+      "gold": [
+        {
+          "article": "37b",
+          "article_sup": null,
+          "article_key": "arti.37b",
+          "unit": null,
+          "act_abbrev": "k.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Zgodnie z Kodeksem karnym, kara nadzwyczajnie obostrzona nie może przekroczyć:",
+      "options": {
+        "A": "1080 stawek dziennych grzywny, sześciu miesięcy ograniczenia wolności lub 20 lat pozbawienia wolności,",
+        "B": "1080 stawek dziennych grzywny, roku ograniczenia wolności lub 25 lat pozbawienia wolności,",
+        "C": "810 stawek dziennych grzywny, 2 lat ograniczenia wolności lub 30 lat pozbawienia wolności."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 38 § 2 k.k.",
+      "gold": [
+        {
+          "article": "38",
+          "article_sup": null,
+          "article_key": "arti.38",
+          "unit": "§ 2",
+          "act_abbrev": "k.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Zgodnie z Kodeksem karnym, jeżeli przestępstwo jest zagrożone karą pozbawienia wolności nieprzekraczającą 3 lat albo karą łagodniejszego rodzaju i społeczna szkodliwość czynu nie jest znaczna, sąd może odstąpić od wymierzenia kary, jeżeli:",
+      "options": {
+        "A": "orzeka jednocześnie dozór kuratora na okres do dwóch lat, a cele kary zostaną w ten sposób spełnione,",
+        "B": "orzeka jednocześnie środek karny, przepadek lub środek kompensacyjny, a cele kary zostaną w ten sposób spełnione,",
+        "C": "orzeka jednocześnie grzywnę poniżej 10 stawek dziennych, a cele kary zostaną w ten sposób spełnione."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 59 k.k.",
+      "gold": [
+        {
+          "article": "59",
+          "article_sup": null,
+          "article_key": "arti.59",
+          "unit": null,
+          "act_abbrev": "k.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Zgodnie z Kodeksem karnym, w razie orzeczenia za zbiegające się przestępstwa pozbawienia praw publicznych, zakazów lub obowiązku tego samego rodzaju, sąd:",
+      "options": {
+        "A": "nie może zastosować przepisów o karze łącznej,",
+        "B": "stosuje odpowiednio przepisy o karze łącznej,",
+        "C": "może zastosować odpowiednio przepisy o karze łącznej tylko na wniosek oskarżonego."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 90 § 2 k.k.",
+      "gold": [
+        {
+          "article": "90",
+          "article_sup": null,
+          "article_key": "arti.90",
+          "unit": "§ 2",
+          "act_abbrev": "k.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Zgodnie z Kodeksem karnym, środkiem zabezpieczającym jest między innymi:",
+      "options": {
+        "A": "tymczasowe aresztowanie,",
+        "B": "elektroniczna kontrola miejsca pobytu,",
+        "C": "dozór Policji."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 93a § 1 pkt 1 k.k.",
+      "gold": [
+        {
+          "article": "93a",
+          "article_sup": null,
+          "article_key": "arti.93a",
+          "unit": "§ 1 pkt 1",
+          "act_abbrev": "k.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Zgodnie z Kodeksem karnym, jeżeli pokrzywdzony był małoletnim poniżej lat 15, nie podlega zatarciu skazanie na karę pozbawienia wolności bez warunkowego zawieszenia jej wykonania za przestępstwo:",
+      "options": {
+        "A": "wyłącznie przeciwko życiu i zdrowiu,",
+        "B": "wyłącznie przeciwko bezpieczeństwu powszechnemu,",
+        "C": "przeciwko wolności seksualnej i obyczajności."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 106a k.k.",
+      "gold": [
+        {
+          "article": "106a",
+          "article_sup": null,
+          "article_key": "arti.106a",
+          "unit": null,
+          "act_abbrev": "k.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Zgodnie z Kodeksem karnym, mieniem znacznej wartości jest mienie, którego wartość:",
+      "options": {
+        "A": "w czasie orzekania przez sąd pierwszej instancji przekracza 100 000 złotych,",
+        "B": "w czasie popełnienia czynu zabronionego przekracza 200 000 złotych,",
+        "C": "w czasie popełnienia czynu zabronionego przekracza 1 000 000 złotych."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 115 § 5 k.k.",
+      "gold": [
+        {
+          "article": "115",
+          "article_sup": null,
+          "article_key": "arti.115",
+          "unit": "§ 5",
+          "act_abbrev": "k.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Zgodnie z Kodeksem postępowania karnego, oskarżonego uważa się za niewinnego, dopóki wina jego nie zostanie udowodniona i stwierdzona:",
+      "options": {
+        "A": "nieprawomocnym wyrokiem,",
+        "B": "prawomocnym wyrokiem,",
+        "C": "zarówno wyrokiem, jak i postanowieniem sądu."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 5 § 1 k.p.k.",
+      "gold": [
+        {
+          "article": "5",
+          "article_sup": null,
+          "article_key": "arti.5",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.k."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Zgodnie z Kodeksem postępowania karnego, sąd orzeka postanowieniem, że oskarżyciel posiłkowy nie może brać udziału w postępowaniu, gdy bierze w nim już udział określona przez sąd liczba oskarżycieli posiłkowych; na to postanowienie sądu:",
+      "options": {
+        "A": "zażalenie nie przysługuje,",
+        "B": "zażalenie przysługuje do sądu wyższej instancji,",
+        "C": "zażalenie przysługuje do innego równorzędnego składu tego sądu."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 56 § 1a k.p.k.",
+      "gold": [
+        {
+          "article": "56",
+          "article_sup": null,
+          "article_key": "arti.56",
+          "unit": "§ 1a",
+          "act_abbrev": "k.p.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.k."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Zgodnie z Kodeksem postępowania karnego, w postępowaniu karnym oskarżony musi mieć obrońcę, między innymi, jeżeli nie ukończył 18 lat; wówczas udział obrońcy jest obowiązkowy:",
+      "options": {
+        "A": "w rozprawie oraz w tych posiedzeniach, w których obowiązkowy jest udział oskarżonego,",
+        "B": "wyłącznie w rozprawie,",
+        "C": "w rozprawie oraz we wszystkich posiedzeniach."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 79 § 3 k.p.k.",
+      "gold": [
+        {
+          "article": "79",
+          "article_sup": null,
+          "article_key": "arti.79",
+          "unit": "§ 3",
+          "act_abbrev": "k.p.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.k."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Zgodnie z Kodeksem postępowania karnego, jeżeli udzielenie odpowiedzi na pytanie mogłoby narazić świadka na odpowiedzialność za przestępstwo, świadek może:",
+      "options": {
+        "A": "zażądać, żeby odpowiedź na pytanie nie została zaprotokołowana,",
+        "B": "uchylić się od odpowiedzi na pytanie,",
+        "C": "wnioskować o nadanie klauzuli „poufne” protokołowi jego przesłuchania."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 183 § 1 k.p.k.",
+      "gold": [
+        {
+          "article": "183",
+          "article_sup": null,
+          "article_key": "arti.183",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.k."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Zgodnie z Kodeksem postępowania karnego, prokurator w postępowaniu przygotowawczym:",
+      "options": {
+        "A": "może uchylić tymczasowe aresztowanie zastosowane przez sąd w tej sprawie, tylko na wniosek tymczasowo aresztowanego,",
+        "B": "nie może uchylić tymczasowego aresztowania zastosowanego przez sąd w tej sprawie,",
+        "C": "może uchylić tymczasowe aresztowanie zastosowane przez sąd w tej sprawie."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 253 § 2 k.p.k.",
+      "gold": [
+        {
+          "article": "253",
+          "article_sup": null,
+          "article_key": "arti.253",
+          "unit": "§ 2",
+          "act_abbrev": "k.p.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.k."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Zgodnie z Kodeksem postępowania karnego, rozprawę główną rozpoczyna:",
+      "options": {
+        "A": "doręczenie oskarżonemu aktu oskarżenia,",
+        "B": "odczytanie aktu oskarżenia,",
+        "C": "wywołanie sprawy."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 381 k.p.k.",
+      "gold": [
+        {
+          "article": "381",
+          "article_sup": null,
+          "article_key": "arti.381",
+          "unit": null,
+          "act_abbrev": "k.p.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.k."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Zgodnie z Kodeksem postępowania karnego, jeżeli oskarżony odmawia wyjaśnień na rozprawie głównej, wolno odczytywać tylko w odpowiednim zakresie:",
+      "options": {
+        "A": "protokoły jego zeznań złożonych poprzednio w charakterze świadka w tej sprawie,",
+        "B": "protokoły jego wyjaśnień złożonych poprzednio w charakterze oskarżonego w tej lub innej sprawie w postępowaniu przygotowawczym lub przed sądem albo w innym postępowaniu przewidzianym przez ustawę,",
+        "C": "wszelkie protokoły jego zeznań i wyjaśnień za zgodą jego obrońcy."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 389 § 1 k.p.k.",
+      "gold": [
+        {
+          "article": "389",
+          "article_sup": null,
+          "article_key": "arti.389",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.k."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Zgodnie z Kodeksem postępowania karnego, jeżeli sąd pierwszej instancji orzekł karę nieznaną ustawie, sąd odwoławczy:",
+      "options": {
+        "A": "uchyla zaskarżone orzeczenie i przekazuje sprawę sądowi pierwszej instancji do ponownego rozpoznania,",
+        "B": "zmienia zaskarżone orzeczenie, orzekając odmiennie co do istoty,",
+        "C": "umarza postępowanie odwoławcze."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 437 § 2 w zw. z art. 439 § 1 pkt 5 k.p.k.",
+      "gold": [
+        {
+          "article": "437",
+          "article_sup": null,
+          "article_key": "arti.437",
+          "unit": "§ 2",
+          "act_abbrev": "k.p.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.k."
+        },
+        {
+          "article": "439",
+          "article_sup": null,
+          "article_key": "arti.439",
+          "unit": "§ 1 pkt 5",
+          "act_abbrev": "k.p.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.k."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Zgodnie z Kodeksem postępowania karnego, wyrokiem nakazowym można orzec:",
+      "options": {
+        "A": "karę ograniczenia wolności lub grzywnę w wysokości do 200 stawek dziennych albo do 200 000 złotych,",
+        "B": "każdą karę przewidzianą w Kodeksie karnym,",
+        "C": "karę pozbawienia wolności do 6 miesięcy."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 502 § 1 k.p.k.",
+      "gold": [
+        {
+          "article": "502",
+          "article_sup": null,
+          "article_key": "arti.502",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.k."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Zgodnie z Kodeksem postępowania karnego, w sprawach o odszkodowanie za niesłuszne skazanie przez sąd powszechny orzeka w pierwszej instancji:",
+      "options": {
+        "A": "Sąd Najwyższy,",
+        "B": "sąd apelacyjny,",
+        "C": "sąd okręgowy."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 554 § 1 i § 2 k.p.k.",
+      "gold": [
+        {
+          "article": "554",
+          "article_sup": null,
+          "article_key": "arti.554",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.k.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.k."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Zgodnie z Kodeksem wykroczeń, na zasadach określonych w tym Kodeksie odpowiada ten, kto popełnia czyn zabroniony po ukończeniu lat:",
+      "options": {
+        "A": "17,",
+        "B": "15,",
+        "C": "13."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 8 k.w.",
+      "gold": [
+        {
+          "article": "8",
+          "article_sup": null,
+          "article_key": "arti.8",
+          "unit": null,
+          "act_abbrev": "k.w.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.w."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Zgodnie z Kodeksem wykroczeń, obowiązek naprawienia szkody jest:",
+      "options": {
+        "A": "środkiem zabezpieczającym,",
+        "B": "środkiem karnym,",
+        "C": "karą."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 28 § 1 pkt 4 k.w.",
+      "gold": [
+        {
+          "article": "28",
+          "article_sup": null,
+          "article_key": "arti.28",
+          "unit": "§ 1 pkt 4",
+          "act_abbrev": "k.w.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.w."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "Zgodnie z Kodeksem wykroczeń, nawiązkę orzeka się na rzecz pokrzywdzonego:",
+      "options": {
+        "A": "zawsze obligatoryjnie, kiedy powstała szkoda,",
+        "B": "w wypadkach przewidzianych w przepisach szczególnych,",
+        "C": "tylko za wykroczenia przeciwko mieniu."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 32 k.w.",
+      "gold": [
+        {
+          "article": "32",
+          "article_sup": null,
+          "article_key": "arti.32",
+          "unit": null,
+          "act_abbrev": "k.w.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.w."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "Zgodnie z Kodeksem postępowania w sprawach o wykroczenia, obrońcą w sprawach o wykroczenia może być:",
+      "options": {
+        "A": "każda osoba najbliższa dla obwinionego,",
+        "B": "adwokat albo radca prawny,",
+        "C": "każdy, kto posiada pełnię praw obywatelskich."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 24 § 1 k.p.s.w.",
+      "gold": [
+        {
+          "article": "24",
+          "article_sup": null,
+          "article_key": "arti.24",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.s.w.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.s.w."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Zgodnie z Kodeksem postępowania w sprawach o wykroczenia, sprawca wykroczenia:",
+      "options": {
+        "A": "może odmówić przyjęcia mandatu karnego,",
+        "B": "nie może odmówić przyjęcia mandatu karnego, ale może się od niego odwołać w terminie 14 dni,",
+        "C": "nie może odmówić przyjęcia mandatu karnego, ale może się od niego odwołać w terminie 7 dni."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 97 § 2 k.p.s.w.",
+      "gold": [
+        {
+          "article": "97",
+          "article_sup": null,
+          "article_key": "arti.97",
+          "unit": "§ 2",
+          "act_abbrev": "k.p.s.w.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.s.w."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Zgodnie z Kodeksem karnym skarbowym, karą za wykroczenia skarbowe jest:",
+      "options": {
+        "A": "kara pozbawienia wolności lub kara ograniczenia wolności lub kara grzywny określona w stawkach dziennych,",
+        "B": "tylko kara grzywny określona w stawkach dziennych,",
+        "C": "kara grzywny określona kwotowo."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 47 § 1 k.k.s.",
+      "gold": [
+        {
+          "article": "47",
+          "article_sup": null,
+          "article_key": "arti.47",
+          "unit": "§ 1",
+          "act_abbrev": "k.k.s.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.k.s."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Zgodnie z Kodeksem cywilnym, jeżeli osoba ograniczona w zdolności do czynności prawnych dokonała sama jednostronnej czynności prawnej polegającej na zaciągnięciu zobowiązania, do której ustawa wymaga zgody przedstawiciela ustawowego, czynność ta jest:",
+      "options": {
+        "A": "nieważna,",
+        "B": "zawsze ważna,",
+        "C": "ważna, jeżeli zostanie potwierdzona przez przedstawiciela ustawowego po jej dokonaniu."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 19 k.c.",
+      "gold": [
+        {
+          "article": "19",
+          "article_sup": null,
+          "article_key": "arti.19",
+          "unit": null,
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "Zgodnie z Kodeksem cywilnym, jeżeli pełnomocnik po wygaśnięciu umocowania dokona w imieniu mocodawcy czynności prawnej w granicach pierwotnego umocowania, dwustronna czynność prawna jest:",
+      "options": {
+        "A": "ważna, chyba że mocodawca zgłosi wobec niej sprzeciw w terminie 7 dni od daty czynności,",
+        "B": "ważna, chyba że druga strona o wygaśnięciu umocowania wiedziała lub z łatwością mogła się dowiedzieć,",
+        "C": "bezwzględnie nieważna, nawet gdyby mocodawca dokonał jej potwierdzenia."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 105 k.c.",
+      "gold": [
+        {
+          "article": "105",
+          "article_sup": null,
+          "article_key": "arti.105",
+          "unit": null,
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "Zgodnie z Kodeksem cywilnym, bieg przedawnienia roszczeń majątkowych nie rozpoczyna się, a rozpoczęty ulega zawieszeniu co do wszelkich roszczeń, gdy z powodu siły wyższej uprawniony nie może ich dochodzić przed sądem lub innym organem powołanym do rozpoznawania spraw danego rodzaju:",
+      "options": {
+        "A": "przez czas trwania przeszkody,",
+        "B": "przez czas trwania przeszkody oraz okres roku od jej ustania,",
+        "C": "przez okres lat dwóch od ustania przeszkody."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 121 pkt 4 k.c.",
+      "gold": [
+        {
+          "article": "121",
+          "article_sup": null,
+          "article_key": "arti.121",
+          "unit": "pkt 4",
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "Zgodnie z Kodeksem cywilnym, właściciel nieruchomości powinien przy wykonywaniu swego prawa powstrzymywać się:",
+      "options": {
+        "A": "od wszelkich działań, które by zakłócały korzystanie z nieruchomości sąsiednich,",
+        "B": "od działań, które by zakłócały korzystanie z nieruchomości sąsiednich ponad przeciętną miarę, wynikającą ze społeczno-gospodarczego przeznaczenia nieruchomości i stosunków miejscowych,",
+        "C": "od wszelkich działań, nawet gdyby nie zakłócały one korzystania z nieruchomości sąsiednich ponad przeciętną miarę."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 144 k.c.",
+      "gold": [
+        {
+          "article": "144",
+          "article_sup": null,
+          "article_key": "arti.144",
+          "unit": null,
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "Zgodnie z Kodeksem cywilnym, jeżeli właściciel nieruchomości, przeciwko któremu biegnie zasiedzenie, jest małoletni:",
+      "options": {
+        "A": "zasiedzenie nie może skończyć się wcześniej niż z upływem dwóch lat od uzyskania pełnoletności przez właściciela,",
+        "B": "zasiedzenie nie może skończyć się wcześniej niż z upływem pięciu lat od uzyskania pełnoletności przez właściciela,",
+        "C": "bieg zasiedzenia rozpoczyna się z chwilą uzyskania pełnoletności przez właściciela."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 173 k.c.",
+      "gold": [
+        {
+          "article": "173",
+          "article_sup": null,
+          "article_key": "arti.173",
+          "unit": null,
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "Zgodnie z Kodeksem cywilnym, właściciel może żądać od osoby, która włada faktycznie jego rzeczą, ażeby rzecz została mu wydana, chyba że:",
+      "options": {
+        "A": "osobie tej przysługuje wobec właściciela roszczenie o zwrot pożytków naturalnych,",
+        "B": "osobie tej przysługuje skuteczne względem właściciela uprawnienie do władania rzeczą,",
+        "C": "osobie tej przysługuje roszczenie o wynagrodzenie z tytułu utrzymania rzeczy."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 222 § 1 k.c.",
+      "gold": [
+        {
+          "article": "222",
+          "article_sup": null,
+          "article_key": "arti.222",
+          "unit": "§ 1",
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "Zgodnie z Kodeksem cywilnym, roszczenia samoistnego posiadacza przeciwko właścicielowi o zwrot nakładów na rzecz przedawniają się z upływem:",
+      "options": {
+        "A": "lat sześciu od dnia dokonania nakładów,",
+        "B": "lat trzech od dnia wymagalności tego roszczenia,",
+        "C": "roku od dnia zwrotu rzeczy."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 229 § 1 k.c.",
+      "gold": [
+        {
+          "article": "229",
+          "article_sup": null,
+          "article_key": "arti.229",
+          "unit": "§ 1",
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "Zgodnie z Kodeksem cywilnym, jeżeli po ustanowieniu służebności gruntowej powstanie ważna potrzeba gospodarcza, właściciel nieruchomości obciążonej:",
+      "options": {
+        "A": "może żądać zniesienia służebności gruntowej za wynagrodzeniem,",
+        "B": "może żądać za wynagrodzeniem zmiany treści lub sposobu wykonywania służebności, chyba że żądana zmiana przyniosłaby niewspółmierny uszczerbek nieruchomości władnącej,",
+        "C": "może żądać zniesienia bądź zmiany treści lub sposobu wykonywania służebności bez wynagrodzenia."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 291 k.c.",
+      "gold": [
+        {
+          "article": "291",
+          "article_sup": null,
+          "article_key": "arti.291",
+          "unit": null,
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "Zgodnie z Kodeksem cywilnym, jeżeli przedmiotem zobowiązania podlegającego wykonaniu na terytorium Rzeczypospolitej Polskiej jest suma pieniężna wyrażona w walucie obcej, dłużnik może spełnić świadczenie:",
+      "options": {
+        "A": "wyłącznie w walucie obcej, niezależnie w jakiej walucie ustawa, orzeczenie sądowe będące źródłem zobowiązania lub czynność prawna zastrzega spełnienie świadczenia,",
+        "B": "w walucie polskiej, chyba że ustawa, orzeczenie sądowe będące źródłem zobowiązania lub czynność prawna zastrzega spełnienie świadczenia wyłącznie w walucie obcej,",
+        "C": "w walucie polskiej lub walucie obcej, niezależnie w jakiej walucie ustawa, orzeczenie sądowe będące źródłem zobowiązania lub czynność prawna zastrzega spełnienie świadczenia."
+      },
+      "correct": "B",
+      "legal_basis_raw": "a rt. 358 § 1 k.c.",
+      "gold": [
+        {
+          "article": null,
+          "article_sup": null,
+          "article_key": null,
+          "unit": null,
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Zgodnie z Kodeksem cywilnym, jeżeli jedna ze stron, wyzyskując przymusowe położenie, niedołęstwo, niedoświadczenie lub brak dostatecznego rozeznania drugiej strony co do przedmiotu umowy wzajemnej, w zamian za swoje świadczenie przyjmuje albo zastrzega dla siebie lub dla osoby trzeciej świadczenie, którego wartość w chwili zawarcia umowy przewyższa w rażącym stopniu wartość jej własnego świadczenia, druga strona może żądać:",
+      "options": {
+        "A": "wyłącznie zmniejszenia swego świadczenia,",
+        "B": "wyłącznie unieważnienia umowy,",
+        "C": "według swego wyboru zmniejszenia swego świadczenia lub zwiększenia należnego jej świadczenia albo unieważnienia umowy."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 388 § 1 k.c.",
+      "gold": [
+        {
+          "article": "388",
+          "article_sup": null,
+          "article_key": "arti.388",
+          "unit": "§ 1",
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "Zgodnie z Kodeksem cywilnym, jeżeli osoba trzecia zobowiązała się przez umowę z dłużnikiem zwolnić go od obowiązku świadczenia:",
+      "options": {
+        "A": "nie jest ona odpowiedzialna względem dłużnika za to, że wierzyciel będzie od niego żądał spełnienia świadczenia,",
+        "B": "jest ona odpowiedzialna względem dłużnika za to, że wierzyciel nie będzie od niego żądał spełnienia świadczenia,",
+        "C": "jest ona odpowiedzialna względem dłużnika za to, że wierzyciel nie będzie od niego żądał spełnienia świadczenia, jedynie gdy umowa została zawarta w formie aktu notarialnego."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 392 k.c.",
+      "gold": [
+        {
+          "article": "392",
+          "article_sup": null,
+          "article_key": "arti.392",
+          "unit": null,
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "question": "Zgodnie z Kodeksem cywilnym, kto z winy swej wyrządził drugiemu szkodę, obowiązany jest do jej naprawienia; nie ponosi jednak odpowiedzialności – na zasadzie winy – za wyrządzoną szkodę małoletni, który nie ukończył lat:",
+      "options": {
+        "A": "trzynastu,",
+        "B": "siedemnastu,",
+        "C": "osiemnastu."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 426 k.c.",
+      "gold": [
+        {
+          "article": "426",
+          "article_sup": null,
+          "article_key": "arti.426",
+          "unit": null,
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "question": "Zgodnie z Kodeksem cywilnym, w razie niewykonania lub nienależytego wykonania zobowiązania kara umowna należy się wierzycielowi w zastrzeżonej na ten wypadek wysokości bez względu na wysokość poniesionej szkody (wyrządzonej nieumyślnie); żądanie odszkodowania przenoszącego wysokość zastrzeżonej kary umownej:",
+      "options": {
+        "A": "nigdy nie jest dopuszczalne,",
+        "B": "zawsze jest dopuszczalne,",
+        "C": "nie jest dopuszczalne, chyba że strony inaczej postanowiły."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 484 § 1 k.c.",
+      "gold": [
+        {
+          "article": "484",
+          "article_sup": null,
+          "article_key": "arti.484",
+          "unit": "§ 1",
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "question": "Zgodnie z Kodeksem cywilnym, gdy wierzyciel zwalnia dłużnika z długu, a dłużnik zwolnienie przyjmuje, zobowiązanie:",
+      "options": {
+        "A": "nie wygasa,",
+        "B": "przekształca się w naturalne,",
+        "C": "wygasa."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 508 k.c.",
+      "gold": [
+        {
+          "article": "508",
+          "article_sup": null,
+          "article_key": "arti.508",
+          "unit": null,
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "question": "Zgodnie z Kodeksem cywilnym, jeżeli nie zostały zastrzeżone inne terminy, prawo pierwokupu można wykonać:",
+      "options": {
+        "A": "co do nieruchomości w ciągu miesiąca, a co do innych rzeczy - w ciągu tygodnia od otrzymania zawiadomienia o sprzedaży,",
+        "B": "co do nieruchomości w ciągu sześciu miesięcy, a co do innych rzeczy - w ciągu dwóch tygodni od otrzymania zawiadomienia o sprzedaży,",
+        "C": "co do nieruchomości w ciągu roku, a co do innych rzeczy - w ciągu miesiąca od otrzymania zawiadomienia o sprzedaży."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 598 § 2 k.c.",
+      "gold": [
+        {
+          "article": "598",
+          "article_sup": null,
+          "article_key": "arti.598",
+          "unit": "§ 2",
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "Zgodnie z Kodeksem cywilnym, w razie odpłatnego zlecenia, jeżeli co innego nie wynika z umowy lub z przepisów szczególnych, wynagrodzenie należy się przyjmującemu zlecenie:",
+      "options": {
+        "A": "przed wykonaniem zlecenia,",
+        "B": "w trakcie wykonywania zlecenia, jeżeli tego zażąda,",
+        "C": "dopiero po wykonaniu zlecenia."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 744 k.c.",
+      "gold": [
+        {
+          "article": "744",
+          "article_sup": null,
+          "article_key": "arti.744",
+          "unit": null,
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "Zgodnie z Kodeksem cywilnym, jeżeli sposób wynagrodzenia agenta nie został w umowie agencyjnej określony:",
+      "options": {
+        "A": "nigdy nie należy mu się wynagrodzenie,",
+        "B": "należy mu się prowizja,",
+        "C": "należy mu się wynagrodzenie ryczałtowe."
+      },
+      "correct": "B",
+      "legal_basis_raw": "1 art. 758 § 1 k.c.",
+      "gold": [
+        {
+          "article": "758",
+          "article_sup": null,
+          "article_key": "arti.758",
+          "unit": "§ 1",
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "Zgodnie z Kodeksem cywilnym, testament sporządzony w formie aktu notarialnego może zawierać:",
+      "options": {
+        "A": "rozrządzenia majątkiem tylko jednego spadkodawcy,",
+        "B": "łączne rozrządzenia majątkiem wielu spadkodawców,",
+        "C": "wspólne rozrządzenia majątkiem osób pozostających w związku małżeńskim."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 942 k.c.",
+      "gold": [
+        {
+          "article": "942",
+          "article_sup": null,
+          "article_key": "arti.942",
+          "unit": null,
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "Zgodnie z Kodeksem cywilnym, przedmiotem zapisu windykacyjnego nie może być:",
+      "options": {
+        "A": "rzecz oznaczona co do tożsamości,",
+        "B": "niemajątkowe prawo autorskie,",
+        "C": "przedsiębiorstwo."
+      },
+      "correct": "B",
+      "legal_basis_raw": "1 art. 981 § 2 k.c.",
+      "gold": [
+        {
+          "article": "981",
+          "article_sup": null,
+          "article_key": "arti.981",
+          "unit": "§ 2",
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "Zgodnie z Kodeksem cywilnym, spadkodawca może w testamencie powołać wykonawcę testamentu; wykonawcą testamentu nie może być:",
+      "options": {
+        "A": "kto nie ma pełnej zdolności do czynności prawnych,",
+        "B": "żaden spadkobierca,",
+        "C": "osoba wykonująca zawód adwokata, radcy prawnego, notariusza albo komornika."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 986 § 2 k.c.",
+      "gold": [
+        {
+          "article": "986",
+          "article_sup": null,
+          "article_key": "arti.986",
+          "unit": "§ 2",
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "Zgodnie z Kodeksem cywilnym, spadkobierca może przyjąć spadek bądź go odrzucić; oświadczenie o przyjęciu lub o odrzuceniu spadku złożone pod warunkiem:",
+      "options": {
+        "A": "wywołuje skutek z chwilą ziszczenia się warunku,",
+        "B": "jest nieważne,",
+        "C": "jest ważne niezależnie od ziszczenia się warunku."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 1018 § 1 k.c.",
+      "gold": [
+        {
+          "article": "1018",
+          "article_sup": null,
+          "article_key": "arti.1018",
+          "unit": "§ 1",
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "Zgodnie z Kodeksem cywilnym, spadkobierca ustawowy może przez umowę z przyszłym spadkodawcą zrzec się dziedziczenia po nim; umowa taka powinna być zawarta w formie:",
+      "options": {
+        "A": "dokumentowej,",
+        "B": "pisemnej z datą pewną,",
+        "C": "aktu notarialnego."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 1048 § 1 k.c.",
+      "gold": [
+        {
+          "article": "1048",
+          "article_sup": null,
+          "article_key": "arti.1048",
+          "unit": "§ 1",
+          "act_abbrev": "k.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.c."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "Zgodnie z ustawą o prawie autorskim i prawach pokrewnych, przedmiotem prawa autorskiego są między innymi:",
+      "options": {
+        "A": "urzędowe dokumenty, materiały, znaki i symbole,",
+        "B": "utwory wzornictwa przemysłowego,",
+        "C": "proste informacje prasowe."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 1 ust. 2 pkt 5 ustawy z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych",
+      "gold": [
+        {
+          "article": "1",
+          "article_sup": null,
+          "article_key": "arti.1",
+          "unit": "ust. 2 pkt 5",
+          "act_abbrev": null,
+          "act_date": "1994-02-04",
+          "act_name": "o prawie autorskim i prawach pokrewnych",
+          "act_raw": "ustawa 1994-02-04 o prawie autorskim i prawach pokrewnych"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "question": "Zgodnie z ustawą o prawie autorskim i prawach pokrewnych, jeżeli twórca nie dostarczył utworu w przewidzianym terminie (i niedostarczenie tego utworu jest następstwem okoliczności, za które twórca ponosi odpowiedzialność), zamawiający:",
+      "options": {
+        "A": "może umowę wypowiedzieć bez wyznaczania twórcy dodatkowego terminu na dostarczenie utworu,",
+        "B": "może od umowy odstąpić bez wyznaczania twórcy dodatkowego terminu na dostarczenie utworu,",
+        "C": "może wyznaczyć twórcy odpowiedni dodatkowy termin z zagrożeniem odstąpienia od umowy, a po jego bezskutecznym upływie może od umowy odstąpić."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 54 ust. 2 ustawy z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych",
+      "gold": [
+        {
+          "article": "54",
+          "article_sup": null,
+          "article_key": "arti.54",
+          "unit": "ust. 2",
+          "act_abbrev": null,
+          "act_date": "1994-02-04",
+          "act_name": "o prawie autorskim i prawach pokrewnych",
+          "act_raw": "ustawa 1994-02-04 o prawie autorskim i prawach pokrewnych"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "question": "Zgodnie z ustawą o księgach wieczystych i hipotece, do powstania hipoteki umownej:",
+      "options": {
+        "A": "wystarczające jest złożenie wniosku o wpis hipoteki w księdze wieczystej,",
+        "B": "niezbędny jest wpis hipoteki w księdze wieczystej,",
+        "C": "wystarczające jest zawarcie umowy o ustanowieniu hipoteki."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 67 ustawy z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece",
+      "gold": [
+        {
+          "article": "67",
+          "article_sup": null,
+          "article_key": "arti.67",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "1982-07-06",
+          "act_name": "o księgach wieczystych i hipotece",
+          "act_raw": "ustawa 1982-07-06 o księgach wieczystych i hipotece"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "question": "Zgodnie z ustawą o księgach wieczystych i hipotece, hipoteka zabezpiecza mieszczące się w sumie hipoteki:",
+      "options": {
+        "A": "roszczenia o nieprzedawnione odsetki oraz o przyznane koszty postępowania, jak również inne nieprzedawnione roszczenia o świadczenia uboczne, jeżeli zostały wymienione w dokumencie stanowiącym podstawę wpisu hipoteki do księgi wieczystej,",
+        "B": "wyłącznie roszczenia o odsetki oraz o przyznane koszty postępowania,",
+        "C": "wyłącznie roszczenia o świadczenia uboczne, jeżeli zostały wymienione w dokumencie stanowiącym podstawę wpisu hipoteki do księgi wieczystej."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 69 i art. 77 zd. 2 ustawy z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece art. 12 ust. 2 ustawy z dnia 22 maja 2003 r.",
+      "gold": [
+        {
+          "article": "69",
+          "article_sup": null,
+          "article_key": "arti.69",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "1982-07-06",
+          "act_name": "o księgach wieczystych i hipotece art. 12 ust. 2 ustawy z dnia 22 maja 2003 r",
+          "act_raw": "ustawa 1982-07-06 o księgach wieczystych i hipotece art. 12 ust. 2 ustawy z dnia 22 maja 2003 r"
+        },
+        {
+          "article": "77",
+          "article_sup": null,
+          "article_key": "arti.77",
+          "unit": "zd. 2",
+          "act_abbrev": null,
+          "act_date": "1982-07-06",
+          "act_name": "o księgach wieczystych i hipotece art. 12 ust. 2 ustawy z dnia 22 maja 2003 r",
+          "act_raw": "ustawa 1982-07-06 o księgach wieczystych i hipotece art. 12 ust. 2 ustawy z dnia 22 maja 2003 r"
+        },
+        {
+          "article": "12",
+          "article_sup": null,
+          "article_key": "arti.12",
+          "unit": "ust. 2",
+          "act_abbrev": null,
+          "act_date": "1982-07-06",
+          "act_name": "o księgach wieczystych i hipotece art. 12 ust. 2 ustawy z dnia 22 maja 2003 r",
+          "act_raw": "ustawa 1982-07-06 o księgach wieczystych i hipotece art. 12 ust. 2 ustawy z dnia 22 maja 2003 r"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "question": "Zgodnie z ustawą o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych, w przypadku opłacania składki ubezpieczeniowej w ratach, niezapłacenie przez ubezpieczonego lub ubezpieczającego raty składki w terminie oznaczonym przez zakład ubezpieczeń:",
+      "options": {
+        "A": "powoduje ustanie odpowiedzialności zakładu ubezpieczeń,",
+        "B": "powoduje ustanie odpowiedzialności zakładu ubezpieczeń po 30 dniach od upływu terminu jej zapłaty,",
+        "C": "nie powoduje ustania odpowiedzialności zakładu ubezpieczeń."
+      },
+      "correct": "C",
+      "legal_basis_raw": "o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych",
+      "gold": [
+        {
+          "article": null,
+          "article_sup": null,
+          "article_key": null,
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "Zgodnie z ustawą - Prawo wekslowe, zapłatę wekslu można zabezpieczyć poręczeniem wekslowem (aval):",
+      "options": {
+        "A": "jedynie co do całości sumy wekslowej,",
+        "B": "jedynie co do części sumy wekslowej,",
+        "C": "co do całości sumy wekslowej lub co do jej części."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 30 ustawy z dnia 28 kwietnia 1936 r. – Prawo wekslowe",
+      "gold": [
+        {
+          "article": "30",
+          "article_sup": null,
+          "article_key": "arti.30",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "1936-04-28",
+          "act_name": "Prawo wekslowe",
+          "act_raw": "ustawa 1936-04-28 Prawo wekslowe"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "question": "Zgodnie z ustawą - Prawo o stowarzyszeniach, jeżeli stowarzyszenie prowadzi działalność gospodarczą, dochód z tej działalności stowarzyszenia służy realizacji celów statutowych i:",
+      "options": {
+        "A": "nie może być przeznaczony do podziału między jego członków,",
+        "B": "może być przeznaczony do podziału między jego członków,",
+        "C": "może być przeznaczony do podziału między jego członków, jeżeli statut nie przewiduje inaczej."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 34 ustawy z dnia 7 kwietnia 1989 r. – Prawo o stowarzyszeniach",
+      "gold": [
+        {
+          "article": "34",
+          "article_sup": null,
+          "article_key": "arti.34",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "1989-04-07",
+          "act_name": "Prawo o stowarzyszeniach",
+          "act_raw": "ustawa 1989-04-07 Prawo o stowarzyszeniach"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "question": "Zgodnie z ustawą o spółdzielniach mieszkaniowych, celem spółdzielni mieszkaniowej jest zaspokajanie potrzeb mieszkaniowych i innych potrzeb członków oraz ich rodzin, przez:",
+      "options": {
+        "A": "dostarczanie członkom wyłącznie samodzielnych lokali mieszkalnych,",
+        "B": "dostarczanie członkom samodzielnych lokali mieszkalnych lub domów jednorodzinnych, a także lokali o innym przeznaczeniu,",
+        "C": "zorganizowanie możliwości wykorzystania posiadanych przez członków środków finansowych na realizację inwestycji mieszkaniowej."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 1 ust. 1 ustawy z dnia 15 grudnia 2000 r. o spółdzielniach mieszkaniowych",
+      "gold": [
+        {
+          "article": "1",
+          "article_sup": null,
+          "article_key": "arti.1",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "2000-12-15",
+          "act_name": "o spółdzielniach mieszkaniowych",
+          "act_raw": "ustawa 2000-12-15 o spółdzielniach mieszkaniowych"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "question": "Zgodnie z ustawą o spółdzielniach mieszkaniowych, spółdzielcze własnościowe prawo do lokalu jest:",
+      "options": {
+        "A": "prawem zbywalnym i przechodzi na spadkobierców,",
+        "B": "prawem niezbywalnym i nie przechodzi na spadkobierców,",
+        "C": "prawem zbywalnym, ale nigdy nie przechodzi na spadkobierców."
+      },
+      "correct": "A",
+      "legal_basis_raw": "2 art. 17 ust. 1 ustawy z dnia 15 grudnia 2000 r. o spółdzielniach mieszkaniowych",
+      "gold": [
+        {
+          "article": "17",
+          "article_sup": null,
+          "article_key": "arti.17",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "2000-12-15",
+          "act_name": "o spółdzielniach mieszkaniowych",
+          "act_raw": "ustawa 2000-12-15 o spółdzielniach mieszkaniowych"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "question": "Zgodnie z ustawą – Prawo spółdzielcze, przed upływem kadencji członek rady nadzorczej spółdzielni może być odwołany przez organ, który go wybrał:",
+      "options": {
+        "A": "zwykłą większością głosów,",
+        "B": "bezwzględną większością głosów,",
+        "C": "większością 2/3 głosów."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 45 § 5 ustawy z dnia 16 września 1982 r. – Prawo spółdzielcze",
+      "gold": [
+        {
+          "article": "45",
+          "article_sup": null,
+          "article_key": "arti.45",
+          "unit": "§ 5",
+          "act_abbrev": null,
+          "act_date": "1982-09-16",
+          "act_name": "Prawo spółdzielcze",
+          "act_raw": "ustawa 1982-09-16 Prawo spółdzielcze"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "question": "Zgodnie z ustawą o ochronie praw lokatorów, mieszkaniowym zasobie gminy i o zmianie Kodeksu cywilnego, umowa najmu instytucjonalnego lokalu zawierana jest:",
+      "options": {
+        "A": "na czas oznaczony,",
+        "B": "na czas nieoznaczony,",
+        "C": "na czas nieoznaczony, a za zgodą wynajmującego również na czas oznaczony."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 19f ust. 2 ustawy z d nia 21 czerwca 2001 r. o ochronie praw lokatorów, mieszkaniowym zasobie gminy i o zmianie Kodeksu cywilnego",
+      "gold": [
+        {
+          "article": "19f",
+          "article_sup": null,
+          "article_key": "arti.19f",
+          "unit": "ust. 2",
+          "act_abbrev": null,
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "art. 19f ust. 2 ustawy z d nia 21 czerwca 2001 r. o ochronie praw lokatorów, mieszkaniowym zasobie gminy i o zmianie Kodeksu cywilnego"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "question": "Zgodnie z ustawą o własności lokali, w razie wyodrębnienia własności lokali właścicielowi lokalu przysługuje udział w nieruchomości wspólnej jako prawo związane z własnością lokali; zniesienia współwłasności nieruchomości wspólnej:",
+      "options": {
+        "A": "można żądać po upływie lat 5 od wyodrębnienia własności lokalu na rzecz właściciela lokalu,",
+        "B": "można żądać w każdym czasie, o ile z wnioskiem takim wystąpią wszyscy właściciele wyodrębnionych lokali,",
+        "C": "nie można żądać, dopóki trwa odrębna własność lokali."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 3 ust. 1 ustawy z dnia 24 czerwca 1994 r. o własności lokali",
+      "gold": [
+        {
+          "article": "3",
+          "article_sup": null,
+          "article_key": "arti.3",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "1994-06-24",
+          "act_name": "o własności lokali",
+          "act_raw": "ustawa 1994-06-24 o własności lokali"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "question": "Zgodnie z ustawą o własności lokali, wspólnotę mieszkaniową tworzy:",
+      "options": {
+        "A": "ogół właścicieli i najemców lokali wchodzących w skład określonej nieruchomości,",
+        "B": "ogół właścicieli, których lokale wchodzą w skład określonej nieruchomości,",
+        "C": "ogół najemców lokali wchodzących w skład określonej nieruchomości."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 6 ustawy z dnia 24 czerwca 1994 r. o własności lokali",
+      "gold": [
+        {
+          "article": "6",
+          "article_sup": null,
+          "article_key": "arti.6",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "1994-06-24",
+          "act_name": "o własności lokali",
+          "act_raw": "ustawa 1994-06-24 o własności lokali"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "question": "Zgodnie z ustawą o gospodarce nieruchomościami, państwowa osoba prawna może zrzec się własności nieruchomości na rzecz:",
+      "options": {
+        "A": "Skarbu Państwa,",
+        "B": "Skarbu Państwa i jednostki samorządu terytorialnego,",
+        "C": "jednostki samorządu terytorialnego."
+      },
+      "correct": "A",
+      "legal_basis_raw": "a rt. 16 ust. 1 ustawy z dnia 21 sierpnia 1997 r. o gospodarce nieruchomościami",
+      "gold": [
+        {
+          "article": null,
+          "article_sup": null,
+          "article_key": null,
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "1997-08-21",
+          "act_name": "o gospodarce nieruchomościami",
+          "act_raw": "ustawa 1997-08-21 o gospodarce nieruchomościami"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "question": "Zgodnie z Kodeksem postępowania cywilnego, sąd w postępowaniu cywilnym jest związany ustaleniami:",
+      "options": {
+        "A": "dokonanymi w sprawie karnej zakończonej wydaniem orzeczenia o warunkowym umorzeniu postępowania,",
+        "B": "wydanego w postępowaniu karnym prawomocnego wyroku skazującego co do popełnienia przestępstwa; jednakże osoba, która nie była oskarżona, może powoływać się w postępowaniu cywilnym na wszelkie okoliczności wyłączające lub ograniczające jej odpowiedzialność cywilną,",
+        "C": "wydanego w postępowaniu karnym prawomocnego wyroku uniewinniającego oskarżonego."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 11 k.p.c.",
+      "gold": [
+        {
+          "article": "11",
+          "article_sup": null,
+          "article_key": "arti.11",
+          "unit": null,
+          "act_abbrev": "k.p.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.c."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "question": "Zgodnie z Kodeksem postępowania cywilnego, wypowiedzenie pełnomocnictwa procesowego przez mocodawcę odnosi skutek prawny w stosunku do sądu:",
+      "options": {
+        "A": "z chwilą dojścia do pełnomocnika oświadczenia o wypowiedzeniu,",
+        "B": "z chwilą złożenia przez pełnomocnika oświadczenia, że wypowiedzenie przyjmuje,",
+        "C": "z chwilą zawiadomieniu sądu o wypowiedzeniu."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 94 § 1 k.p.c.",
+      "gold": [
+        {
+          "article": "94",
+          "article_sup": null,
+          "article_key": "arti.94",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.c."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "question": "Zgodnie z Kodeksem postępowania cywilnego, sąd może zasądzić od strony przegrywającej tylko część kosztów procesu albo nie obciążać jej w ogóle kosztami procesu:",
+      "options": {
+        "A": "wyłączenie z uwagi na sytuację majątkową tej strony,",
+        "B": "w wypadkach szczególnie uzasadnionych,",
+        "C": "dowolnie, według swojego uznania."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 102 k.p.c.",
+      "gold": [
+        {
+          "article": "102",
+          "article_sup": null,
+          "article_key": "arti.102",
+          "unit": null,
+          "act_abbrev": "k.p.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.c."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "question": "Zgodnie z Kodeksem postępowania cywilnego, w przypadku pisma podlegającego opłacie, nie żąda się opłaty od pisma, jeżeli:",
+      "options": {
+        "A": "już z treści pisma wynika, że podlega ono odrzuceniu,",
+        "B": "z treści pisma wynika, że roszczenie strony jest oczywiście uzasadnione,",
+        "C": "z treści pisma wynika, że roszczenie strony jest oczywiście bezzasadne."
+      },
+      "correct": "A",
+      "legal_basis_raw": "2 art. 126 § 2 k.p.c.",
+      "gold": [
+        {
+          "article": "126",
+          "article_sup": null,
+          "article_key": "arti.126",
+          "unit": "§ 2",
+          "act_abbrev": "k.p.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.c."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "question": "Zgodnie z Kodeksem postępowania cywilnego, z mocy ustawy niedopuszczalny wniosek o przywrócenie terminu do dokonania czynności procesowej, sąd:",
+      "options": {
+        "A": "oddala,",
+        "B": "pozostawia bez rozpoznania,",
+        "C": "odrzuca."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 171 k.p.c.",
+      "gold": [
+        {
+          "article": "171",
+          "article_sup": null,
+          "article_key": "arti.171",
+          "unit": null,
+          "act_abbrev": "k.p.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.c."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "question": "Zgodnie z Kodeksem postępowania cywilnego, sąd zawiesza postępowanie cywilne z urzędu w razie:",
+      "options": {
+        "A": "śmierci przedstawiciela ustawowego strony,",
+        "B": "zgodnego wniosku stron o zawieszenie postępowania,",
+        "C": "nieuiszczenia zaliczki na poczet wydatków związanych z przeprowadzeniem dowodu z opinii biegłego."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 174 § 1 pkt 1 k.p.c.",
+      "gold": [
+        {
+          "article": "174",
+          "article_sup": null,
+          "article_key": "arti.174",
+          "unit": "§ 1 pkt 1",
+          "act_abbrev": "k.p.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.c."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "question": "Zgodnie z Kodeksem postępowania cywilnego, jeżeli o to samo roszczenie pomiędzy tymi samymi stronami sprawa została już prawomocnie osądzona, sąd:",
+      "options": {
+        "A": "odrzuca pozew,",
+        "B": "zwraca pozew,",
+        "C": "umarza postępowanie."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 199 § 1 pk t 2 k.p.c.",
+      "gold": [
+        {
+          "article": "199",
+          "article_sup": null,
+          "article_key": "arti.199",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.c."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "question": "Zgodnie z Kodeksem postępowania cywilnego, rozprawa ulega odroczeniu:",
+      "options": {
+        "A": "zawsze wtedy, gdy strony zgłosiły zgodny wniosek o odroczenie rozprawy,",
+        "B": "jeżeli nieobecność strony jest wywołana nadzwyczajnym wydarzeniem lub inną znaną sądowi przeszkodą, której nie można przezwyciężyć,",
+        "C": "zawsze wtedy, gdy istnieje możliwość ugodowego zakończenia sprawy."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 214 § 1 k.p.c.",
+      "gold": [
+        {
+          "article": "214",
+          "article_sup": null,
+          "article_key": "arti.214",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.c."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "question": "Zgodnie z Kodeksem postępowania cywilnego, domniemania ustanowione przez prawo (domniemania prawne):",
+      "options": {
+        "A": "zawsze mogą być obalone,",
+        "B": "nigdy nie mogą być obalone,",
+        "C": "mogą być obalone, ilekroć ustawa tego nie wyłącza."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 234 k.p.c.",
+      "gold": [
+        {
+          "article": "234",
+          "article_sup": null,
+          "article_key": "arti.234",
+          "unit": null,
+          "act_abbrev": "k.p.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.c."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "question": "Zgodnie z Kodeksem postępowania cywilnego, jeżeli apelacja jest bezzasadna, sąd drugiej instancji:",
+      "options": {
+        "A": "oddala apelację,",
+        "B": "odrzuca apelację,",
+        "C": "umarza postępowanie apelacyjne."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 385 k.p.c.",
+      "gold": [
+        {
+          "article": "385",
+          "article_sup": null,
+          "article_key": "arti.385",
+          "unit": null,
+          "act_abbrev": "k.p.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.c."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "question": "Zgodnie z Kodeksem postępowania cywilnego, zażalenie do Sądu Najwyższego przysługuje na:",
+      "options": {
+        "A": "wyrok sądu apelacyjnego uchylający wyrok sądu okręgowego i przekazujący sprawę do ponownego rozpoznania,",
+        "B": "postanowienie sądu apelacyjnego oddalające wniosek o wyłączenie sędziego tego sądu,",
+        "C": "postanowienie sądu apelacyjnego w przedmiocie odrzucenia pozwu."
+      },
+      "correct": "A",
+      "legal_basis_raw": "1 1 art. 394 § 1 k.p.c.",
+      "gold": [
+        {
+          "article": "394",
+          "article_sup": null,
+          "article_key": "arti.394",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.c.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.c."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "question": "Zgodnie z ustawą o kosztach sądowych w sprawach cywilnych, pismo wnoszone przez kilka osób podlega jednej opłacie, chyba że:",
+      "options": {
+        "A": "pismo jest wnoszone przez współuczestników materialnych i każdy współuczestnik materialny uiszcza opłatę oddzielnie, stosownie do swojego roszczenia lub zobowiązania,",
+        "B": "pismo jest wnoszone przez współuczestników formalnych i każdy współuczestnik formalny uiszcza opłatę oddzielnie, stosownie do swojego roszczenia lub zobowiązania,",
+        "C": "pismo jest wnoszone przez współuczestników jednolitych i każdy współuczestnik jednolity uiszcza opłatę oddzielnie, w pełnej wysokości."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 4 ust. 1 ustawy z dnia 28 lipca 2005 r. o kosztach sądowych w sprawach cywilnych",
+      "gold": [
+        {
+          "article": "4",
+          "article_sup": null,
+          "article_key": "arti.4",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "2005-07-28",
+          "act_name": "o kosztach sądowych w sprawach cywilnych",
+          "act_raw": "ustawa 2005-07-28 o kosztach sądowych w sprawach cywilnych"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "question": "Zgodnie z Kodeksem rodzinnym i opiekuńczym, jeżeli oświadczenie o wstąpieniu w związek małżeński zostało złożone przez osobę, która z jakichkolwiek powodów znajdowała się w stanie wyłączającym świadome wyrażenie woli, unieważnienia małżeństwa z tego powodu, przed upływem sześciu miesięcy od ustania tego stanu, a w każdym wypadku przed upływem lat trzech od zawarcia małżeństwa, może żądać:",
+      "options": {
+        "A": "każdy, kto ma w tym interes prawny,",
+        "B": "każdy z małżonków, nawet jeżeli nie złożył oświadczenia dotkniętego tą wadą,",
+        "C": "małżonek, który złożył oświadczenie dotknięte tą wadą."
+      },
+      "correct": "C",
+      "legal_basis_raw": "1 art. 15 § 2 k.r. i o.",
+      "gold": [
+        {
+          "article": "15",
+          "article_sup": null,
+          "article_key": "arti.15",
+          "unit": "§ 2",
+          "act_abbrev": "k.r.o.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k. r. i o."
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "question": "Zgodnie z Kodeksem rodzinnym i opiekuńczym, umowa majątkowa małżeńska powinna być zawarta w formie:",
+      "options": {
+        "A": "aktu notarialnego,",
+        "B": "pisemnej z datą pewną,",
+        "C": "dokumentowej."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 47 § 1 k.r. i o",
+      "gold": [
+        {
+          "article": "47",
+          "article_sup": null,
+          "article_key": "arti.47",
+          "unit": "§ 1",
+          "act_abbrev": null,
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "art. 47 § 1 k.r. i o"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "question": "Zgodnie z Kodeksem rodzinnym i opiekuńczym, orzekając rozwód sąd:",
+      "options": {
+        "A": "zawsze orzeka, czy i który z małżonków ponosi winę rozkładu pożycia,",
+        "B": "orzeka także, czy i który z małżonków ponosi winę rozkładu pożycia; jednakże na zgodne żądanie małżonków sąd zaniecha orzekania o winie,",
+        "C": "wyłącznie na wniosek jednego z małżonków orzeka, czy i który z małżonków ponosi winę rozkładu pożycia."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 57 k.r. i o.",
+      "gold": [
+        {
+          "article": "57",
+          "article_sup": null,
+          "article_key": "arti.57",
+          "unit": null,
+          "act_abbrev": "k.r.o.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k. r. i o."
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "question": "Zgodnie z Kodeksem rodzinnym i opiekuńczym, sąd orzeka o zniesieniu separacji:",
+      "options": {
+        "A": "na zgodne żądanie małżonków,",
+        "B": "na wniosek jednego z małżonków, nawet jeśli drugi małżonek nie ustosunkuje się do wniosku w zakreślonym przez sąd terminie,",
+        "C": "na wniosek jednego z małżonków, nawet jeśli drugi małżonek sprzeciwi się wnioskowi w zakreślonym przez sąd terminie."
+      },
+      "correct": "A",
+      "legal_basis_raw": "6 art. 61 § 1 k.r. i o.",
+      "gold": [
+        {
+          "article": "61",
+          "article_sup": null,
+          "article_key": "arti.61",
+          "unit": "§ 1",
+          "act_abbrev": "k.r.o.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k. r. i o."
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "question": "Zgodnie z Kodeksem rodzinnym i opiekuńczym, obowiązek alimentacyjny:",
+      "options": {
+        "A": "nie przechodzi na spadkobierców zobowiązanego,",
+        "B": "przechodzi na spadkobierców zobowiązanego,",
+        "C": "przechodzi na spadkobierców zobowiązanego, którzy dziedziczą po zobowiązanym na podstawie ustawy."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 139 k.r. i o.",
+      "gold": [
+        {
+          "article": "139",
+          "article_sup": null,
+          "article_key": "arti.139",
+          "unit": null,
+          "act_abbrev": "k.r.o.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k. r. i o."
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "question": "Zgodnie z ustawą o przeciwdziałaniu nadmiernym opóźnieniom w transakcjach handlowych, jeżeli strony transakcji handlowej przewidziały w umowie zbadanie towaru lub usługi celem potwierdzenia zgodności towaru lub usługi z umową, ustalony w umowie termin tego badania:",
+      "options": {
+        "A": "nie może być nieuczciwy wobec wierzyciela i nie może przekraczać 14 dni, licząc od dnia otrzymania towaru lub usługi,",
+        "B": "nie może być rażąco nieuczciwy wobec wierzyciela i nie może przekraczać 30 dni, licząc od dnia otrzymania towaru lub usługi,",
+        "C": "nie może być nieuczciwy wobec wierzyciela i nie może przekraczać 3 miesięcy, licząc od dnia otrzymania towaru lub usługi."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 9 ust. 1 ustawy z dnia 8 marca 2013 r. o przeciwdziałaniu nadmiernym opóźnieniom w transakcjach handlowych",
+      "gold": [
+        {
+          "article": "9",
+          "article_sup": null,
+          "article_key": "arti.9",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "2013-03-08",
+          "act_name": "o przeciwdziałaniu nadmiernym opóźnieniom w transakcjach handlowych",
+          "act_raw": "ustawa 2013-03-08 o przeciwdziałaniu nadmiernym opóźnieniom w transakcjach handlowych"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "question": "Zgodnie z ustawą o zastawie rejestrowym i rejestrze zastawów, zastawem rejestrowym można zabezpieczyć:",
+      "options": {
+        "A": "wierzytelność niepieniężną,",
+        "B": "wierzytelność pieniężną wyrażoną wyłącznie w pieniądzu polskim i wierzytelność niepieniężną,",
+        "C": "wierzytelność pieniężną wyrażoną w pieniądzu polskim lub walucie obcej."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 5 ustawy z dnia 6 grudnia 1996 r. o zastawie rejestrowym i rejestrze zastawów",
+      "gold": [
+        {
+          "article": "5",
+          "article_sup": null,
+          "article_key": "arti.5",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "1996-12-06",
+          "act_name": "o zastawie rejestrowym i rejestrze zastawów",
+          "act_raw": "ustawa 1996-12-06 o zastawie rejestrowym i rejestrze zastawów"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "question": "Zgodnie z ustawą o zastawie rejestrowym i rejestrze zastawów, zastaw rejestrowy wygasa i podlega wykreśleniu z rejestru zastawów:",
+      "options": {
+        "A": "w każdym przypadku po upływie pięciu lat od chwili wpisu,",
+        "B": "w każdym przypadku po upływie dziesięciu lat od chwili wpisu,",
+        "C": "po upływie dwudziestu lat od chwili wpisu, chyba że strony postanowią o utrzymaniu zastawu na czas dalszy, nie dłuższy niż dziesięć lat, i do rejestru zastawów zostanie złożona zmiana umowy zastawniczej."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 18a ustawy z dnia 6 grudnia 1996 r. o zastawie rejestrowym i rejestrze zastawów",
+      "gold": [
+        {
+          "article": "18a",
+          "article_sup": null,
+          "article_key": "arti.18a",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "1996-12-06",
+          "act_name": "o zastawie rejestrowym i rejestrze zastawów",
+          "act_raw": "ustawa 1996-12-06 o zastawie rejestrowym i rejestrze zastawów"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "question": "Zgodnie z ustawą o Krajowym Rejestrze Sądowym, Krajowy Rejestr Sądowy składa się między innymi z:",
+      "options": {
+        "A": "rejestru dłużników niewypłacalnych,",
+        "B": "krajowego rejestru zadłużonych,",
+        "C": "centralnego rejestru beneficjentów rzeczywistych."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 1 ust. 2 pkt 3 ustawy z dnia 20 sierpnia 1997 r. o Krajowym Rejestrze Sądowym",
+      "gold": [
+        {
+          "article": "1",
+          "article_sup": null,
+          "article_key": "arti.1",
+          "unit": "ust. 2 pkt 3",
+          "act_abbrev": null,
+          "act_date": "1997-08-20",
+          "act_name": "o Krajowym Rejestrze Sądowym",
+          "act_raw": "ustawa 1997-08-20 o Krajowym Rejestrze Sądowym"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "question": "Zgodnie z ustawą o Krajowym Rejestrze Sądowym, wpisy do Krajowego Rejestru Sądowego podlegają, o ile ustawa nie stanowi inaczej, obowiązkowi ogłoszenia:",
+      "options": {
+        "A": "w Monitorze Polskim,",
+        "B": "w Monitorze Sądowym i Gospodarczym,",
+        "C": "w Dzienniku Urzędowym Ministra Sprawiedliwości."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 13 ust. 1 ustawy z dnia 20 sierpnia 1997 r. o Krajowym Rejestrze Sądowym",
+      "gold": [
+        {
+          "article": "13",
+          "article_sup": null,
+          "article_key": "arti.13",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "1997-08-20",
+          "act_name": "o Krajowym Rejestrze Sądowym",
+          "act_raw": "ustawa 1997-08-20 o Krajowym Rejestrze Sądowym"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "question": "Zgodnie z ustawą – Prawo restrukturyzacyjne, przepisy tej ustawy stosuje się między innymi do:",
+      "options": {
+        "A": "funduszy inwestycyjnych,",
+        "B": "banków krajowych,",
+        "C": "wspólników osobowych spółek handlowych ponoszących odpowiedzialność za zobowiązania spółki bez ograniczenia całym swoim majątkiem."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 4 ust. 1 pkt 3 ustawy z dnia 15 maja 2015 r. – Prawo restrukturyzacyjne",
+      "gold": [
+        {
+          "article": "4",
+          "article_sup": null,
+          "article_key": "arti.4",
+          "unit": "ust. 1 pkt 3",
+          "act_abbrev": null,
+          "act_date": "2015-05-15",
+          "act_name": "Prawo restrukturyzacyjne",
+          "act_raw": "ustawa 2015-05-15 Prawo restrukturyzacyjne"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "question": "Zgodnie z ustawą – Prawo upadłościowe, sprawy o ogłoszenie upadłości przedsiębiorców rozpoznaje w pierwszej instancji:",
+      "options": {
+        "A": "sąd upadłościowy, którym jest sąd rejonowy – sąd gospodarczy, w składzie jednego sędziego zawodowego,",
+        "B": "sąd upadłościowy, którym jest sąd rejonowy – sąd gospodarczy, w składzie trzech sędziów zawodowych,",
+        "C": "sąd upadłościowy, którym jest sąd okręgowy – sąd gospodarczy, w składzie jednego sędziego zawodowego i dwóch ławników."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 18 ustawy z dnia 28 lutego 2003 r. – Prawo upadłościowe",
+      "gold": [
+        {
+          "article": "18",
+          "article_sup": null,
+          "article_key": "arti.18",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "2003-02-28",
+          "act_name": "Prawo upadłościowe",
+          "act_raw": "ustawa 2003-02-28 Prawo upadłościowe"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "question": "Zgodnie z ustawą – Prawo upadłościowe, datą upadłości jest data:",
+      "options": {
+        "A": "złożenia wniosku o ogłoszenie upadłości,",
+        "B": "wydania wyroku w sprawie ogłoszenia upadłości, a w wypadku wydania wyroku w sprawie ogłoszenia upadłości po ponownym rozpoznaniu sprawy w następstwie uchylenia wyroku przez sąd drugiej instancji – data wydania ponownego wyroku o ogłoszeniu upadłości,",
+        "C": "wydania postanowienia o ogłoszeniu upadłości, a w przypadku wydania postanowienia o ogłoszeniu upadłości po ponownym rozpoznaniu sprawy w następstwie uchylenia postanowienia przez sąd drugiej instancji – data wydania pierwszego postanowienia o ogłoszeniu upadłości."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 52 ustawy z dnia 28 lutego 2003 r. – Prawo upadłościowe",
+      "gold": [
+        {
+          "article": "52",
+          "article_sup": null,
+          "article_key": "arti.52",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "2003-02-28",
+          "act_name": "Prawo upadłościowe",
+          "act_raw": "ustawa 2003-02-28 Prawo upadłościowe"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "question": "Zgodnie z ustawą o prawach konsumenta, jeżeli przepisy odrębne nie stanowią inaczej, przedsiębiorca jest obowiązany udzielić odpowiedzi na reklamację konsumenta:",
+      "options": {
+        "A": "w terminie 7 dni od dnia jej otrzymania,",
+        "B": "w terminie 14 dni od dnia jej otrzymania,",
+        "C": "w terminie 21 dni od dnia jej otrzymania."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 7a ust. 1 ustawy z dnia 30 maja 2014 r. o prawach konsumenta",
+      "gold": [
+        {
+          "article": "7a",
+          "article_sup": null,
+          "article_key": "arti.7a",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "2014-05-30",
+          "act_name": "o prawach konsumenta",
+          "act_raw": "ustawa 2014-05-30 o prawach konsumenta"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "question": "Zgodnie z ustawą – Prawo przedsiębiorców, spółka kapitałowa w organizacji przed wpisem do rejestru przedsiębiorców:",
+      "options": {
+        "A": "nie może podjąć działalności gospodarczej,",
+        "B": "może podjąć działalność gospodarczą,",
+        "C": "nie może podjąć działalności gospodarczej, chyba że sąd rejestrowy wyrazi na to zgodę."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 17 ust. 3 ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców",
+      "gold": [
+        {
+          "article": "17",
+          "article_sup": null,
+          "article_key": "arti.17",
+          "unit": "ust. 3",
+          "act_abbrev": null,
+          "act_date": "2018-03-06",
+          "act_name": "Prawo przedsiębiorców",
+          "act_raw": "ustawa 2018-03-06 Prawo przedsiębiorców"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "question": "Zgodnie z ustawą – Prawo przedsiębiorców, w okresie zawieszenia wykonywania działalności gospodarczej przedsiębiorca:",
+      "options": {
+        "A": "może zbywać własne środki trwałe i wyposażenie,",
+        "B": "nie może zostać poddany kontroli na zasadach przewidzianych dla przedsiębiorców wykonujących działalność gospodarczą,",
+        "C": "nie może przyjmować należności."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 25 ust. 2 pkt 3 ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców",
+      "gold": [
+        {
+          "article": "25",
+          "article_sup": null,
+          "article_key": "arti.25",
+          "unit": "ust. 2 pkt 3",
+          "act_abbrev": null,
+          "act_date": "2018-03-06",
+          "act_name": "Prawo przedsiębiorców",
+          "act_raw": "ustawa 2018-03-06 Prawo przedsiębiorców"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "question": "Zgodnie z Kodeksem spółek handlowych, spółkami osobowymi są:",
+      "options": {
+        "A": "spółka jawna, spółka partnerska, spółka cywilna i spółka komandytowa,",
+        "B": "spółka jawna, prosta spółka akcyjna, spółka komandytowo-akcyjna i spółka komandytowa,",
+        "C": "spółka jawna, spółka partnerska, spółka komandytowa i spółka komandytowo- akcyjna."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 4 § 1 pkt 1 k.s.h.",
+      "gold": [
+        {
+          "article": "4",
+          "article_sup": null,
+          "article_key": "arti.4",
+          "unit": "§ 1 pkt 1",
+          "act_abbrev": "k.s.h.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.s.h."
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "question": "Zgodnie z Kodeksem spółek handlowych, spółka z ograniczoną odpowiedzialnością w organizacji może we własnym imieniu:",
+      "options": {
+        "A": "nabywać prawa, ale bez prawa własności nieruchomości, zaciągać zobowiązania, pozywać i być pozywana,",
+        "B": "nabywać prawa, w tym własność nieruchomości i inne prawa rzeczowe, zaciągać zobowiązania, pozywać i być pozywana,",
+        "C": "nabywać prawa, w tym własność nieruchomości i inne prawa rzeczowe, zaciągać zobowiązania, może być pozywana, ale do czasu wpisu spółki do rejestru przedsiębiorców nie może pozywać."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 11 § 1 w zw. z art. 161 § 1 k.s.h.",
+      "gold": [
+        {
+          "article": "11",
+          "article_sup": null,
+          "article_key": "arti.11",
+          "unit": "§ 1",
+          "act_abbrev": "k.s.h.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.s.h."
+        },
+        {
+          "article": "161",
+          "article_sup": null,
+          "article_key": "arti.161",
+          "unit": "§ 1",
+          "act_abbrev": "k.s.h.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.s.h."
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "question": "Zgodnie z Kodeksem spółek handlowych, umowa spółki jawnej może przewidywać:",
+      "options": {
+        "A": "że wspólnik jest pozbawiony prawa reprezentowania spółki albo że jest uprawniony do jej reprezentowania tylko łącznie z innym wspólnikiem lub prokurentem,",
+        "B": "ograniczenie prawa wspólnika do osobistego zasięgania informacji o stanie majątku i interesów spółki oraz umowne ograniczenie prawa do osobistego przeglądania ksiąg i dokumentów spółki,",
+        "C": "wyłączenie prawa wspólnika do żądania rozwiązania spółki przez sąd z ważnych powodów."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 30 § 1 k.s.h.",
+      "gold": [
+        {
+          "article": "30",
+          "article_sup": null,
+          "article_key": "arti.30",
+          "unit": "§ 1",
+          "act_abbrev": "k.s.h.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.s.h."
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "question": "Zgodnie z Kodeksem spółek handlowych, w przypadku utraty przez partnera spółki partnerskiej uprawnień do wykonywania wolnego zawodu, powinien on wystąpić ze spółki:",
+      "options": {
+        "A": "na żądanie któregokolwiek z pozostałych partnerów,",
+        "B": "jeśli nie uzyska ponownie uprawnień w okresie 3 lat od ich utraty,",
+        "C": "najpóźniej z końcem roku obrotowego, w którym utracił prawo wykonywania wolnego zawodu."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 100 § 1 k.s.h.",
+      "gold": [
+        {
+          "article": "100",
+          "article_sup": null,
+          "article_key": "arti.100",
+          "unit": "§ 1",
+          "act_abbrev": "k.s.h.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.s.h."
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "question": "Zgodnie z Kodeksem spółek handlowych, spółka komandytowo-akcyjna powstaje z chwilą:",
+      "options": {
+        "A": "zawarcia umowy,",
+        "B": "wpisu do rejestru przedsiębiorców,",
+        "C": "złożenia wszystkich wymaganych prawem dokumentów do sądu rejestrowego."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 134 § 1 k.s.h.",
+      "gold": [
+        {
+          "article": "134",
+          "article_sup": null,
+          "article_key": "arti.134",
+          "unit": "§ 1",
+          "act_abbrev": "k.s.h.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.s.h."
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "question": "Zgodnie z Kodeksem spółek handlowych, kapitał zakładowy spółki z ograniczoną odpowiedzialnością powinien wynosić co najmniej 5 000 złotych, a wartość nominalna udziału nie może być niższa niż:",
+      "options": {
+        "A": "50 złotych,",
+        "B": "100 złotych,",
+        "C": "500 złotych."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 154 § 2 k.s.h.",
+      "gold": [
+        {
+          "article": "154",
+          "article_sup": null,
+          "article_key": "arti.154",
+          "unit": "§ 2",
+          "act_abbrev": "k.s.h.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.s.h."
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "question": "Zgodnie z Kodeksem spółek handlowych, jeżeli zarząd spółki z ograniczoną odpowiedzialnością jest wieloosobowy, sposób reprezentowania spółki określa umowa spółki; jeżeli umowa spółki nie zawiera żadnych postanowień w tym przedmiocie, do składania oświadczeń w imieniu spółki wymagane jest:",
+      "options": {
+        "A": "współdziałanie wszystkich członków zarządu albo przynajmniej dwóch członków zarządu łącznie z prokurentem,",
+        "B": "przyjęcie uchwały przez zarząd, która uprawnia każdego członka zarządu do składania oświadczeń w imieniu spółki w zakresie ustalonym tą uchwałą,",
+        "C": "współdziałanie dwóch członków zarządu albo jednego członka zarządu łącznie z prokurentem."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 205 § 1 k.s.h.",
+      "gold": [
+        {
+          "article": "205",
+          "article_sup": null,
+          "article_key": "arti.205",
+          "unit": "§ 1",
+          "act_abbrev": "k.s.h.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.s.h."
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "question": "Zgodnie z Kodeksem spółek handlowych, w przypadku gdy wszystkie akcje spółki akcyjnej przysługują jedynemu akcjonariuszowi albo jedynemu akcjonariuszowi i spółce, oświadczenie woli takiego akcjonariusza składane spółce wymaga:",
+      "options": {
+        "A": "formy dokumentowej,",
+        "B": "formy pisemnej pod rygorem nieważności, chyba że ustawa stanowi inaczej,",
+        "C": "zawsze formy aktu notarialnego."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 303 § 2 k.s.h.",
+      "gold": [
+        {
+          "article": "303",
+          "article_sup": null,
+          "article_key": "arti.303",
+          "unit": "§ 2",
+          "act_abbrev": "k.s.h.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.s.h."
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "question": "Zgodnie z Kodeksem pracy, pracownikiem jest osoba zatrudniona:",
+      "options": {
+        "A": "wyłącznie na podstawie umowy o pracę, powołania i mianowania,",
+        "B": "na podstawie umowy zlecenia, umowy o dzieło, umowy o pracę, powołania i mianowania,",
+        "C": "na podstawie umowy o pracę, powołania, wyboru, mianowania lub spółdzielczej umowy o pracę."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 2 k.p.",
+      "gold": [
+        {
+          "article": "2",
+          "article_sup": null,
+          "article_key": "arti.2",
+          "unit": null,
+          "act_abbrev": "k.p.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p."
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "question": "Zgodnie z Kodeksem pracy, z dniem śmierci pracownika stosunek pracy:",
+      "options": {
+        "A": "rozwiązuje się,",
+        "B": "wygasa,",
+        "C": "trwa nadal, aż do momentu wypłacenia przez pracodawcę rodzinie zmarłego pracownika odprawy pośmiertnej."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 63¹ § 1 k.p.",
+      "gold": [
+        {
+          "article": "63",
+          "article_sup": null,
+          "article_key": "arti.63",
+          "unit": null,
+          "act_abbrev": "k.p.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p."
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "question": "Zgodnie z Kodeksem pracy, uzgodnienie między stronami umowy o pracę dotyczące wykonywania pracy zdalnej przez pracownika może nastąpić:",
+      "options": {
+        "A": "wyłącznie przy zawieraniu umowy o pracę,",
+        "B": "przy zawieraniu umowy o pracę albo w trakcie zatrudnienia,",
+        "C": "wyłącznie w trakcie zatrudnienia."
+      },
+      "correct": "B",
+      "legal_basis_raw": "19 art. 67 § 1 pkt 1 i 2 k.p.",
+      "gold": [
+        {
+          "article": "67",
+          "article_sup": null,
+          "article_key": "arti.67",
+          "unit": "§ 1 pkt 1",
+          "act_abbrev": "k.p.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p."
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "question": "Zgodnie z ustawą o szczególnych zasadach rozwiązywania z pracownikami stosunków pracy z przyczyn niedotyczących pracowników, jeżeli u danego pracodawcy nie działają zakładowe organizacje związkowe, zasady postępowania w sprawach dotyczących pracowników objętych zamiarem grupowego zwolnienia ustala pracodawca:",
+      "options": {
+        "A": "w porozumieniu z właściwym powiatowym urzędem pracy,",
+        "B": "w regulaminie, po konsultacji z właściwym powiatowym urzędem pracy,",
+        "C": "w regulaminie, po konsultacji z przedstawicielami pracowników wyłonionymi w trybie przyjętym u danego pracodawcy."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 3 ust. 5 ustawy z dnia 13 marca 2003 r. o szczególnych zasadach rozwiązywania z pracownikami stosunków pracy z przyczyn niedotyczących pracowników",
+      "gold": [
+        {
+          "article": "3",
+          "article_sup": null,
+          "article_key": "arti.3",
+          "unit": "ust. 5",
+          "act_abbrev": null,
+          "act_date": "2003-03-13",
+          "act_name": "o szczególnych zasadach rozwiązywania z pracownikami stosunków pracy z przyczyn niedotyczących pracowników",
+          "act_raw": "ustawa 2003-03-13 o szczególnych zasadach rozwiązywania z pracownikami stosunków pracy z przyczyn niedotyczących pracowników"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "question": "Zgodnie z ustawą o systemie ubezpieczeń społecznych, Fundusz Rezerwy Demograficznej:",
+      "options": {
+        "A": "posiada osobowość prawną,",
+        "B": "jest jednostką organizacyjną nieposiadającą osobowości prawnej,",
+        "C": "jest zakładem budżetowym Funduszu Ubezpieczeń Społecznych."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 60 ust. 1 ustawy z dnia 13 października 1998 r. o systemie ubezpieczeń społecznych",
+      "gold": [
+        {
+          "article": "60",
+          "article_sup": null,
+          "article_key": "arti.60",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "1998-10-13",
+          "act_name": "o systemie ubezpieczeń społecznych",
+          "act_raw": "ustawa 1998-10-13 o systemie ubezpieczeń społecznych"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "question": "Zgodnie z ustawą o świadczeniach pieniężnych z ubezpieczenia społecznego w razie choroby i macierzyństwa, miesięczny zasiłek opiekuńczy wynosi:",
+      "options": {
+        "A": "100% podstawy wymiaru zasiłku,",
+        "B": "80% podstawy wymiaru zasiłku,",
+        "C": "60% podstawy wymiaru zasiłku."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 35 ust. 1 ustawy z dnia 25 czerwca 1999 r. o świadczeniach pieniężnych z ubezpieczenia społecznego w razie choroby i macierzyństwa",
+      "gold": [
+        {
+          "article": "35",
+          "article_sup": null,
+          "article_key": "arti.35",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "1999-06-25",
+          "act_name": "o świadczeniach pieniężnych z ubezpieczenia społecznego w razie choroby i macierzyństwa",
+          "act_raw": "ustawa 1999-06-25 o świadczeniach pieniężnych z ubezpieczenia społecznego w razie choroby i macierzyństwa"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "question": "Zgodnie z ustawą o samorządzie gminnym, w przypadku utworzenia w gminie budżetu obywatelskiego, corocznie o części wydatków budżetu gminy w ramach budżetu obywatelskiego decydują:",
+      "options": {
+        "A": "mieszkańcy gminy w bezpośrednim głosowaniu,",
+        "B": "przedstawiciele mieszkańców wytypowani przez poszczególne jednostki pomocnicze gminy,",
+        "C": "wyłącznie członkowie młodzieżowej rady gminy."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 5a ust. 4 ustawy z dnia 8 marca 1990 r. o samorządzie gminnym",
+      "gold": [
+        {
+          "article": "5a",
+          "article_sup": null,
+          "article_key": "arti.5a",
+          "unit": "ust. 4",
+          "act_abbrev": null,
+          "act_date": "1990-03-08",
+          "act_name": "o samorządzie gminnym",
+          "act_raw": "ustawa 1990-03-08 o samorządzie gminnym"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "question": "Zgodnie z ustawą o samorządzie powiatowym, organem wykonawczym powiatu jest:",
+      "options": {
+        "A": "zarząd powiatu,",
+        "B": "sekretarz powiatu,",
+        "C": "skarbnik powiatu."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 26 ust. 1 ustawy z dnia 5 czerwca 1998 r. o samorządzie powiatowym",
+      "gold": [
+        {
+          "article": "26",
+          "article_sup": null,
+          "article_key": "arti.26",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "1998-06-05",
+          "act_name": "o samorządzie powiatowym",
+          "act_raw": "ustawa 1998-06-05 o samorządzie powiatowym"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "question": "Zgodnie z ustawą o samorządzie województwa, nadzór nad działalnością samorządu województwa w zakresie spraw finansowych sprawuje:",
+      "options": {
+        "A": "dyrektor izby administracji skarbowej,",
+        "B": "minister właściwy do spraw administracji publicznej,",
+        "C": "regionalna izba obrachunkowa."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 78 ust. 1 ustawy z dnia 5 czerwca 1998 r. o samorządzie województwa",
+      "gold": [
+        {
+          "article": "78",
+          "article_sup": null,
+          "article_key": "arti.78",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "1998-06-05",
+          "act_name": "o samorządzie województwa",
+          "act_raw": "ustawa 1998-06-05 o samorządzie województwa"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "question": "Zgodnie z ustawą o wojewodzie i administracji rządowej w województwie, spory między wojewodami oraz między wojewodą a członkiem Rady Ministrów lub centralnym organem administracji rządowej rozstrzyga:",
+      "options": {
+        "A": "Naczelny Sąd Administracyjny,",
+        "B": "Rada Ministrów,",
+        "C": "Prezes Rady Ministrów."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 10 ustawy z dnia 23 stycznia 2009 r. o wojewodzie i administracji rządowej w województwie",
+      "gold": [
+        {
+          "article": "10",
+          "article_sup": null,
+          "article_key": "arti.10",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "2009-01-23",
+          "act_name": "o wojewodzie i administracji rządowej w województwie",
+          "act_raw": "ustawa 2009-01-23 o wojewodzie i administracji rządowej w województwie"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "question": "Zgodnie z ustawą o wojewodzie i administracji rządowej w województwie, w zakresie nieuregulowanym w przepisach powszechnie obowiązujących wojewoda może wydawać rozporządzenia porządkowe, jeżeli jest to niezbędne:",
+      "options": {
+        "A": "wyłącznie dla zapewnienia bezpieczeństwa publicznego,",
+        "B": "do ochrony życia, zdrowia lub mienia oraz do zapewnienia porządku, spokoju i bezpieczeństwa publicznego,",
+        "C": "wyłącznie dla zapobiegania rozprzestrzenianiu się chorób zakaźnych w przypadku zagrożenia stanem epidemii."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 60 ust. 1 ustawy z dnia 23 stycznia 2009 r. o wojewodzie i administracji rządowej w województwie",
+      "gold": [
+        {
+          "article": "60",
+          "article_sup": null,
+          "article_key": "arti.60",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "2009-01-23",
+          "act_name": "o wojewodzie i administracji rządowej w województwie",
+          "act_raw": "ustawa 2009-01-23 o wojewodzie i administracji rządowej w województwie"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "question": "Zgodnie z Kodeksem postępowania administracyjnego, pełnomocnikiem strony w postępowaniu administracyjnym może być:",
+      "options": {
+        "A": "osoba fizyczna posiadająca zdolność do czynności prawnych,",
+        "B": "wyłącznie adwokat, radca prawny, rzecznik patentowy lub doradca podatkowy,",
+        "C": "wyłącznie małżonek, rodzeństwo, zstępni lub wstępni strony oraz osoby pozostające ze stroną w stosunku przysposobienia."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 33 § 1 k.p.a.",
+      "gold": [
+        {
+          "article": "33",
+          "article_sup": null,
+          "article_key": "arti.33",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.a.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.a."
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "question": "Zgodnie z Kodeksem postępowania administracyjnego, w razie uchybienia terminu, który podlega przywróceniu, prośbę o jego przywrócenie należy wnieść:",
+      "options": {
+        "A": "niezwłocznie po ustaniu przyczyny uchybienia terminu,",
+        "B": "w ciągu trzech dni od dnia ustania przyczyny uchybienia terminu,",
+        "C": "w ciągu siedmiu dni od dnia ustania przyczyny uchybienia terminu."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 58 § 2 k.p.a.",
+      "gold": [
+        {
+          "article": "58",
+          "article_sup": null,
+          "article_key": "arti.58",
+          "unit": "§ 2",
+          "act_abbrev": "k.p.a.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.a."
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "question": "Zgodnie z Kodeksem postępowania administracyjnego, datą wszczęcia postępowania administracyjnego na żądanie strony (z wyłączeniem żądania wniesionego drogą elektroniczną) jest dzień:",
+      "options": {
+        "A": "doręczenia żądania strony organowi administracji publicznej,",
+        "B": "wydania przez organ administracji publicznej postanowienia o wszczęciu postępowania,",
+        "C": "doręczenia stronie przez organ administracji publicznej postanowienia o wszczęciu postępowania."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 61 § 3 k.p.a.",
+      "gold": [
+        {
+          "article": "61",
+          "article_sup": null,
+          "article_key": "arti.61",
+          "unit": "§ 3",
+          "act_abbrev": "k.p.a.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.a."
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "question": "Zgodnie z Kodeksem postępowania administracyjnego, decyzje administracyjne:",
+      "options": {
+        "A": "rozstrzygają sprawę wyłącznie w sposób, który w całości uwzględnia żądanie strony,",
+        "B": "dotyczą poszczególnych kwestii wynikających w toku postępowania, lecz nie rozstrzygają o istocie sprawy,",
+        "C": "rozstrzygają sprawę co do jej istoty w całości lub w części albo w inny sposób kończą sprawę w danej instancji."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 104 § 2 k.p.a.",
+      "gold": [
+        {
+          "article": "104",
+          "article_sup": null,
+          "article_key": "arti.104",
+          "unit": "§ 2",
+          "act_abbrev": "k.p.a.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.a."
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "question": "Zgodnie z Kodeksem postępowania administracyjnego, organ administracji publicznej, który wydał decyzję, jest nią związany od chwili:",
+      "options": {
+        "A": "jej podpisania, o ile kodeks nie stanowi inaczej,",
+        "B": "jej doręczenia lub ogłoszenia, o ile kodeks nie stanowi inaczej,",
+        "C": "jej uprawomocnienia, o ile kodeks nie stanowi inaczej."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 110 § 1 k.p.a.",
+      "gold": [
+        {
+          "article": "110",
+          "article_sup": null,
+          "article_key": "arti.110",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.a.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.a."
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "question": "Zgodnie z Kodeksem postępowania administracyjnego, sprawa administracyjna może być załatwiona milcząco:",
+      "options": {
+        "A": "zawsze kiedy rozstrzygnięcia wydają organy jednostek samorządu terytorialnego,",
+        "B": "jeżeli przepis szczególny tak stanowi,",
+        "C": "we wszystkich przypadkach dotyczących wydawania zaświadczeń."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 122a § 1 k.p.a.",
+      "gold": [
+        {
+          "article": "122a",
+          "article_sup": null,
+          "article_key": "arti.122a",
+          "unit": "§ 1",
+          "act_abbrev": "k.p.a.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.a."
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "question": "Zgodnie z Kodeksem postępowania administracyjnego, przyczyną stwierdzenia nieważności decyzji administracyjnej jest jej wydanie między innymi:",
+      "options": {
+        "A": "przez pracownika lub organ administracji publicznej, który podlegał wyłączeniu,",
+        "B": "bez podstawy prawnej lub z rażącym naruszeniem prawa,",
+        "C": "w wyniku przestępstwa."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 156 § 1 pkt 2 k.p.a.",
+      "gold": [
+        {
+          "article": "156",
+          "article_sup": null,
+          "article_key": "arti.156",
+          "unit": "§ 1 pkt 2",
+          "act_abbrev": "k.p.a.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.a."
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "question": "Zgodnie z Kodeksem postępowania administracyjnego, administracyjną karę pieniężną nakłada:",
+      "options": {
+        "A": "organ administracji publicznej, w drodze decyzji,",
+        "B": "wojewódzki sąd administracyjny na wniosek organu administracji publicznej na mocy wyroku,",
+        "C": "sąd rejonowy na wniosek organu administracji publicznej na mocy postanowienia."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 189b k.p.a.",
+      "gold": [
+        {
+          "article": "189b",
+          "article_sup": null,
+          "article_key": "arti.189b",
+          "unit": null,
+          "act_abbrev": "k.p.a.",
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "k.p.a."
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "question": "Zgodnie z ustawą – Prawo o postępowaniu przed sądami administracyjnymi, jeżeli strona nie dokonała w terminie czynności w postępowaniu sądowym bez swojej winy, sąd na jej wniosek postanowi przywrócenie terminu; po upływie roku od uchybionego terminu, jego przywrócenie:",
+      "options": {
+        "A": "nie jest w ogóle dopuszczalne,",
+        "B": "jest dopuszczalne tylko w przypadkach wyjątkowych,",
+        "C": "jest dopuszczalne tylko wówczas, gdy strona przeciwna wyrazi na to zgodę."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 87 § 5 ustawy z dnia 30 sierpnia 2002 r. – Prawo o postępowaniu przed sądami administracyjnymi",
+      "gold": [
+        {
+          "article": "87",
+          "article_sup": null,
+          "article_key": "arti.87",
+          "unit": "§ 5",
+          "act_abbrev": null,
+          "act_date": "2002-08-30",
+          "act_name": "Prawo o postępowaniu przed sądami administracyjnymi",
+          "act_raw": "ustawa 2002-08-30 Prawo o postępowaniu przed sądami administracyjnymi"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "question": "Zgodnie z ustawą – Prawo o postępowaniu przed sądami administracyjnymi, wojewódzki sąd administracyjny może przeprowadzić dowody uzupełniające:",
+      "options": {
+        "A": "z dokumentów, jeżeli jest to niezbędne do wyjaśnienia istotnych wątpliwości i nie spowoduje nadmiernego przedłużenia postępowania w sprawie,",
+        "B": "z oświadczenia strony niebędącej organem administracji publicznej, złożonego przed sądem pod rygorem odpowiedzialności karnej za fałszywe oświadczenie, jeżeli przepis prawa nie wymaga urzędowego potwierdzenia określonych faktów,",
+        "C": "z zeznań świadków."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 106 § 3 ustawy z dnia 30 sierpnia 2002 r. – Prawo o postępowaniu przed sądami administracyjnymi",
+      "gold": [
+        {
+          "article": "106",
+          "article_sup": null,
+          "article_key": "arti.106",
+          "unit": "§ 3",
+          "act_abbrev": null,
+          "act_date": "2002-08-30",
+          "act_name": "Prawo o postępowaniu przed sądami administracyjnymi",
+          "act_raw": "ustawa 2002-08-30 Prawo o postępowaniu przed sądami administracyjnymi"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "question": "Zgodnie z ustawą – Prawo o postępowaniu przed sądami administracyjnymi, od orzeczeń przewodniczącego wydanych w toku rozprawy strony mogą odwołać się:",
+      "options": {
+        "A": "w terminie siedmiu dni, do przewodniczącego wydziału sądu administracyjnego, w którym toczyła się rozprawa,",
+        "B": "w terminie trzech dni, do prezesa sądu administracyjnego, w którym toczyła się rozprawa,",
+        "C": "do czasu zamknięcia rozprawy, do sądu orzekającego."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 114 ustawy z dnia – Prawo o postępowaniu przed sądami administracyjnymi",
+      "gold": [
+        {
+          "article": "114",
+          "article_sup": null,
+          "article_key": "arti.114",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": null,
+          "act_name": null,
+          "act_raw": "art. 114 ustawy z dnia – Prawo o postępowaniu przed sądami administracyjnymi"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "question": "Zgodnie z ustawą – Prawo o postępowaniu przed sądami administracyjnymi, w sprawach, w których skargę oddalił wojewódzki sąd administracyjny, uzasadnienie wyroku sporządza się na wniosek strony zgłoszony w terminie:",
+      "options": {
+        "A": "siedmiu dni od dnia ogłoszenia wyroku albo doręczenia odpisu sentencji wyroku,",
+        "B": "czternastu dni od dnia ogłoszenia wyroku albo doręczenia odpisu sentencji wyroku,",
+        "C": "trzydziestu dni od dnia ogłoszenia wyroku albo doręczenia odpisu sentencji wyroku."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 141 § 2 ustawy z dnia 30 sierpnia 2002 r. – Prawo o postępowaniu przed sądami administracyjnymi",
+      "gold": [
+        {
+          "article": "141",
+          "article_sup": null,
+          "article_key": "arti.141",
+          "unit": "§ 2",
+          "act_abbrev": null,
+          "act_date": "2002-08-30",
+          "act_name": "Prawo o postępowaniu przed sądami administracyjnymi",
+          "act_raw": "ustawa 2002-08-30 Prawo o postępowaniu przed sądami administracyjnymi"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "question": "Zgodnie z ustawą – Prawo o postępowaniu przed sądami administracyjnymi, Naczelny Sąd Administracyjny rozpoznaje sprawę w granicach skargi kasacyjnej, bierze jednak z urzędu pod rozwagę nieważność postępowania, która zachodzi między innymi jeżeli:",
+      "options": {
+        "A": "skład sądu orzekającego był sprzeczny z przepisami prawa albo jeżeli w rozpoznaniu sprawy brał udział sędzia wyłączony z mocy ustawy,",
+        "B": "wyjdą na jaw istotne dla sprawy nowe okoliczności faktyczne lub nowe dowody istniejące w dniu wydania wyroku nieznane wojewódzkiemu sądowi administracyjnemu, który wydał wyrok,",
+        "C": "wykonanie wyroku wojewódzkiego sądu administracyjnego wywołałoby czyn zagrożony karą."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 183 § 2 pkt 4 ustawy z dnia 30 sierpnia 2002 r. – Prawo o postępowaniu przed sądami administracyjnymi",
+      "gold": [
+        {
+          "article": "183",
+          "article_sup": null,
+          "article_key": "arti.183",
+          "unit": "§ 2 pkt 4",
+          "act_abbrev": null,
+          "act_date": "2002-08-30",
+          "act_name": "Prawo o postępowaniu przed sądami administracyjnymi",
+          "act_raw": "ustawa 2002-08-30 Prawo o postępowaniu przed sądami administracyjnymi"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "question": "Zgodnie z ustawą – Prawo o postępowaniu przed sądami administracyjnymi, nie ma obowiązku uiszczenia kosztów sądowych (jako zwolniona z mocy ustawy) strona – będąca osobą fizyczną – skarżąca działanie, bezczynność organu lub przewlekłe prowadzenie postępowania w sprawach:",
+      "options": {
+        "A": "nakładania lub wymierzania administracyjnej kary pieniężnej,",
+        "B": "ze stosunków pracy i stosunków służbowych,",
+        "C": "dotyczących zobowiązań podatkowych."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 239 § 1 pkt 1 lit. d ustawy z dnia 30 sierpnia 2002 r. – Prawo o postępowaniu przed sądami administracyjnymi",
+      "gold": [
+        {
+          "article": "239",
+          "article_sup": null,
+          "article_key": "arti.239",
+          "unit": "§ 1 pkt 1 lit. d",
+          "act_abbrev": null,
+          "act_date": "2002-08-30",
+          "act_name": "Prawo o postępowaniu przed sądami administracyjnymi",
+          "act_raw": "ustawa 2002-08-30 Prawo o postępowaniu przed sądami administracyjnymi"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "question": "Zgodnie z ustawą – Prawo o postępowaniu przed sądami administracyjnymi, jeżeli nie wniesiono sprzeciwu od postanowienia referendarza sądowego o odmowie przyznania prawa pomocy, ma ono skutki:",
+      "options": {
+        "A": "postanowienia, na które przysługuje zażalenie do wojewódzkiego sądu administracyjnego,",
+        "B": "postanowienia, na które przysługuje zażalenie do Naczelnego Sądu Administracyjnego,",
+        "C": "prawomocnego orzeczenia sądu."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 259 § 3 ustawy z dnia 30 sierpnia 2002 r. – Prawo o postępowaniu przed sądami administracyjnymi",
+      "gold": [
+        {
+          "article": "259",
+          "article_sup": null,
+          "article_key": "arti.259",
+          "unit": "§ 3",
+          "act_abbrev": null,
+          "act_date": "2002-08-30",
+          "act_name": "Prawo o postępowaniu przed sądami administracyjnymi",
+          "act_raw": "ustawa 2002-08-30 Prawo o postępowaniu przed sądami administracyjnymi"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "question": "Zgodnie z Traktatem o Unii Europejskiej, podstawą funkcjonowania Unii Europejskiej jest:",
+      "options": {
+        "A": "demokracja przedstawicielska,",
+        "B": "wyłącznie demokracja bezpośrednia,",
+        "C": "demokracja bezpośrednia i pośrednia."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 10 ust. 1 Traktatu z dnia 7 lutego 1992 r. o Unii Europejskiej – tekst uwzględniający zmiany wprowadzone Traktatem z Lizbony",
+      "gold": [
+        {
+          "article": "10",
+          "article_sup": null,
+          "article_key": "arti.10",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "1992-02-07",
+          "act_name": "Unii Europejskiej",
+          "act_raw": "Traktat 1992-02-07 Unii Europejskiej"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "question": "Zgodnie z Traktatem o Unii Europejskiej, w skład Parlamentu Europejskiego wchodzą przedstawiciele obywateli Unii Europejskiej; ich liczba nie przekracza siedmiuset pięćdziesięciu, nie licząc przewodniczącego; żadnemu Państwu Członkowskiemu nie można przyznać więcej miejsc niż:",
+      "options": {
+        "A": "sto,",
+        "B": "dziewięćdziesiąt sześć,",
+        "C": "osiemdziesiąt pięć."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 14 ust. 2 Traktatu z dnia 7 lutego 1992 r. o Unii Europejskiej – tekst uwzględniający zmiany wprowadzone Traktatem z Lizbony",
+      "gold": [
+        {
+          "article": "14",
+          "article_sup": null,
+          "article_key": "arti.14",
+          "unit": "ust. 2",
+          "act_abbrev": null,
+          "act_date": "1992-02-07",
+          "act_name": "Unii Europejskiej",
+          "act_raw": "Traktat 1992-02-07 Unii Europejskiej"
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "question": "Zgodnie z Traktatem o Unii Europejskiej, w skład Rady:",
+      "options": {
+        "A": "wchodzi jeden przedstawiciel szczebla ministerialnego z każdego Państwa Członkowskiego, upoważniony do zaciągania zobowiązań w imieniu rządu Państwa Członkowskiego, które reprezentuje, oraz do wykonywania prawa głosu,",
+        "B": "wchodzą szefowie państw lub rządów Państw Członkowskich, jak również jej przewodniczący oraz przewodniczący Komisji Europejskiej; w jej pracach uczestniczy wysoki przedstawiciel Unii Europejskiej do spraw zagranicznych i polityki bezpieczeństwa,",
+        "C": "wchodzą obywatele Państw Członkowskich, których liczba odpowiada dwóm trzecim liczby Państw Członkowskich, chyba że Rada Europejska, stanowiąc jednomyślnie, podejmie decyzję o zmianie tej liczby."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 16 ust. 2 Traktatu z dnia 7 lutego 1992 r. o Unii Europejskiej – tekst uwzględniający zmiany wprowadzone Traktatem z Lizbony",
+      "gold": [
+        {
+          "article": "16",
+          "article_sup": null,
+          "article_key": "arti.16",
+          "unit": "ust. 2",
+          "act_abbrev": null,
+          "act_date": "1992-02-07",
+          "act_name": "Unii Europejskiej",
+          "act_raw": "Traktat 1992-02-07 Unii Europejskiej"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "question": "Zgodnie z Traktatem o funkcjonowaniu Unii Europejskiej, Unia Europejska ma wyłączne kompetencje między innymi w następującej dziedzinie:",
+      "options": {
+        "A": "polityce pieniężnej w odniesieniu do Państw Członkowskich, których walutą jest euro,",
+        "B": "transportu,",
+        "C": "energii."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 3 ust. 1 lit. c Traktatu z dnia 25 marca 1957 r. o funkcjonowaniu Unii Europejskiej – tekst uwzględniający zmiany wprowadzone Traktatem z Lizbony",
+      "gold": [
+        {
+          "article": "3",
+          "article_sup": null,
+          "article_key": "arti.3",
+          "unit": "ust. 1 lit. c",
+          "act_abbrev": null,
+          "act_date": "1957-03-25",
+          "act_name": "funkcjonowaniu Unii Europejskiej",
+          "act_raw": "Traktat 1957-03-25 funkcjonowaniu Unii Europejskiej"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "question": "Zgodnie z Traktatem o funkcjonowaniu Unii Europejskiej, obywatelem Unii Europejskiej jest każda osoba mająca obywatelstwo Państwa Członkowskiego; obywatelstwo Unii Europejskiej:",
+      "options": {
+        "A": "korzysta z zasady pierwszeństwa przed obywatelstwem krajowym,",
+        "B": "ma charakter dodatkowy w stosunku do obywatelstwa krajowego, nie zastępując go jednak,",
+        "C": "ma charakter dodatkowy w stosunku do obywatelstwa krajowego i zastępuje to obywatelstwo."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 20 ust. 1 Traktatu z dnia 25 marca 1957 r. o funkcjonowaniu Unii Europejskiej – tekst uwzględniający zmiany wprowadzone Traktatem z Lizbony",
+      "gold": [
+        {
+          "article": "20",
+          "article_sup": null,
+          "article_key": "arti.20",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "1957-03-25",
+          "act_name": "funkcjonowaniu Unii Europejskiej",
+          "act_raw": "Traktat 1957-03-25 funkcjonowaniu Unii Europejskiej"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "question": "Zgodnie z Konstytucją Rzeczypospolitej Polskiej, władza zwierzchnia w Rzeczypospolitej Polskiej należy do:",
+      "options": {
+        "A": "Prezydenta Rzeczypospolitej Polskiej,",
+        "B": "Zgromadzenia Narodowego,",
+        "C": "Narodu."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 4 ust. 1 Konstytucji Rzeczypospolitej Polskiej",
+      "gold": [
+        {
+          "article": "4",
+          "article_sup": null,
+          "article_key": "arti.4",
+          "unit": "ust. 1",
+          "act_abbrev": "Konstytucja",
+          "act_date": null,
+          "act_name": "Konstytucja Rzeczypospolitej Polskiej",
+          "act_raw": "Konstytucja RP"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "question": "Zgodnie z Konstytucją Rzeczypospolitej Polskiej, własność może być ograniczona:",
+      "options": {
+        "A": "tylko w drodze ustawy i tylko w zakresie, w jakim nie narusza ona istoty prawa własności,",
+        "B": "tylko w drodze aktu prawa miejscowego i tylko w zakresie, w jakim nie narusza on istoty prawa własności,",
+        "C": "w drodze ustawy oraz w drodze aktu prawa miejscowego i tylko w zakresie, w jakim przemawia za tym ważny interes społeczny."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 64 ust. 3 Konstytucji Rzeczypospolitej Polskiej",
+      "gold": [
+        {
+          "article": "64",
+          "article_sup": null,
+          "article_key": "arti.64",
+          "unit": "ust. 3",
+          "act_abbrev": "Konstytucja",
+          "act_date": null,
+          "act_name": "Konstytucja Rzeczypospolitej Polskiej",
+          "act_raw": "Konstytucja RP"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "question": "Zgodnie z Konstytucją Rzeczypospolitej Polskiej, wynik referendum ogólnokrajowego jest wiążący:",
+      "options": {
+        "A": "jeżeli w referendum ogólnokrajowym wzięła udział połowa uprawnionych do głosowania,",
+        "B": "jeżeli w referendum ogólnokrajowym wzięło udział więcej niż połowa uprawnionych do głosowania,",
+        "C": "w każdym przypadku, bez względu na liczbę osób uprawionych do głosowania, które wzięły w nim udział."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 125 ust. 3 Konstytucji Rzeczypospolitej Polskiej",
+      "gold": [
+        {
+          "article": "125",
+          "article_sup": null,
+          "article_key": "arti.125",
+          "unit": "ust. 3",
+          "act_abbrev": "Konstytucja",
+          "act_date": null,
+          "act_name": "Konstytucja Rzeczypospolitej Polskiej",
+          "act_raw": "Konstytucja RP"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "question": "Zgodnie z Konstytucją Rzeczypospolitej Polskiej, Najwyższa Izba Kontroli podlega:",
+      "options": {
+        "A": "Radzie Ministrów,",
+        "B": "Sejmowi,",
+        "C": "Prezydentowi Rzeczypospolitej Polskiej."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 202 ust. 2 Konstytucji Rzeczypospolitej Polskiej",
+      "gold": [
+        {
+          "article": "202",
+          "article_sup": null,
+          "article_key": "arti.202",
+          "unit": "ust. 2",
+          "act_abbrev": "Konstytucja",
+          "act_date": null,
+          "act_name": "Konstytucja Rzeczypospolitej Polskiej",
+          "act_raw": "Konstytucja RP"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "question": "Zgodnie z Konstytucją Rzeczypospolitej Polskiej, inicjatywa ustawodawcza w zakresie zmiany ustawy budżetowej przysługuje:",
+      "options": {
+        "A": "Prezydentowi Rzeczypospolitej Polskiej i Radzie Ministrów,",
+        "B": "Senatowi i Radzie Ministrów,",
+        "C": "wyłącznie Radzie Ministrów."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 221 Konstytucji Rzeczypospolitej Polskiej",
+      "gold": [
+        {
+          "article": "221",
+          "article_sup": null,
+          "article_key": "arti.221",
+          "unit": null,
+          "act_abbrev": "Konstytucja",
+          "act_date": null,
+          "act_name": "Konstytucja Rzeczypospolitej Polskiej",
+          "act_raw": "Konstytucja RP"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "question": "Zgodnie z ustawą – Prawo o ustroju sądów powszechnych, od postanowienia o ukaraniu karą porządkową zażalenie:",
+      "options": {
+        "A": "nie przysługuje,",
+        "B": "przysługuje do sądu bezpośrednio przełożonego, a gdy zostało wydane przez sąd apelacyjny do Sądu Najwyższego,",
+        "C": "przysługuje do innego składu sądu, który wydał to postanowienie i tylko wtedy, gdy sąd orzekł grzywnę w wysokości powyżej 2 000 złotych."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 50 § 1 ustawy z dnia 27 lipca 2001 r. – Prawo o ustroju sądów powszechnych",
+      "gold": [
+        {
+          "article": "50",
+          "article_sup": null,
+          "article_key": "arti.50",
+          "unit": "§ 1",
+          "act_abbrev": null,
+          "act_date": "2001-07-27",
+          "act_name": "Prawo o ustroju sądów powszechnych",
+          "act_raw": "ustawa 2001-07-27 Prawo o ustroju sądów powszechnych"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "question": "Zgodnie z ustawą o Sądzie Najwyższym, samorząd sędziów Sądu Najwyższego stanowią:",
+      "options": {
+        "A": "wszyscy sędziowie Sądu Najwyższego w stanie czynnym; w skład samorządu wchodzą również wszyscy sędziowie Sądu Najwyższego w stanie spoczynku,",
+        "B": "wszyscy sędziowie Sądu Najwyższego w stanie czynnym; w skład samorządu wchodzą również sędziowie delegowani do pełnienia czynności sędziowskich w Sądzie Najwyższym,",
+        "C": "wszyscy sędziowie Sądu Najwyższego w stanie czynnym; w skład samorządu nie wchodzą sędziowie delegowani do pełnienia czynności sędziowskich w Sądzie Najwyższym."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 16 § 1 ustawy z dnia 8 grudnia 2017 r. o Sądzie Najwyższym",
+      "gold": [
+        {
+          "article": "16",
+          "article_sup": null,
+          "article_key": "arti.16",
+          "unit": "§ 1",
+          "act_abbrev": null,
+          "act_date": "2017-12-08",
+          "act_name": "o Sądzie Najwyższym",
+          "act_raw": "ustawa 2017-12-08 o Sądzie Najwyższym"
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "question": "Zgodnie z ustawą – Prawo o prokuraturze, prokurator przełożony:",
+      "options": {
+        "A": "może powierzyć podległym prokuratorom wykonywanie czynności należących do jego zakresu działania, chyba że ustawa zastrzega określoną czynność wyłącznie do jego właściwości,",
+        "B": "w każdym przypadku może powierzyć podległym prokuratorom wykonywanie czynności należących do jego zakresu działania,",
+        "C": "w żadnym przypadku nie może powierzyć podległym prokuratorom wykonywania czynności należących do jego zakresu działania."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 9 § 1 ustawy z dnia 28 stycznia 2016 r. – Prawo o prokuraturze",
+      "gold": [
+        {
+          "article": "9",
+          "article_sup": null,
+          "article_key": "arti.9",
+          "unit": "§ 1",
+          "act_abbrev": null,
+          "act_date": "2016-01-28",
+          "act_name": "Prawo o prokuraturze",
+          "act_raw": "ustawa 2016-01-28 Prawo o prokuraturze"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "question": "Zgodnie z ustawą – Prawo o adwokaturze, adwokat podczas i w związku z wykonywaniem obowiązków zawodowych korzysta z ochrony prawnej podobnie jak:",
+      "options": {
+        "A": "sędzia i prokurator,",
+        "B": "osoba będąca pracownikiem administracji rządowej, innego organu państwowego lub samorządu terytorialnego,",
+        "C": "funkcjonariusz Policji."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 7 ust. 1 ustawy z dnia 26 maja 1982 r. – Prawo o adwokaturze",
+      "gold": [
+        {
+          "article": "7",
+          "article_sup": null,
+          "article_key": "arti.7",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "1982-05-26",
+          "act_name": "Prawo o adwokaturze",
+          "act_raw": "ustawa 1982-05-26 Prawo o adwokaturze"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "question": "Zgodnie z ustawą – Prawo o adwokaturze, Minister Sprawiedliwości zwraca się o uchylenie sprzecznych z prawem uchwał organów adwokatury i organów izb adwokackich do:",
+      "options": {
+        "A": "Naczelnego Sądu Administracyjnego w terminie 6 miesięcy od dnia ich doręczenia,",
+        "B": "Sądu Najwyższego w terminie 3 miesięcy od dnia ich doręczenia; jeżeli zaskarżona uchwała rażąco narusza prawo, termin ten wynosi 6 miesięcy,",
+        "C": "sądu okręgowego, w którego obszarze właściwości znajduje się siedziba organów adwokatury lub organów izb adwokackich w terminie 3 miesięcy od dnia ich doręczenia."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 14 ust. 1 ustawy z dnia 26 maja 1982 r. – Prawo o adwokaturze",
+      "gold": [
+        {
+          "article": "14",
+          "article_sup": null,
+          "article_key": "arti.14",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "1982-05-26",
+          "act_name": "Prawo o adwokaturze",
+          "act_raw": "ustawa 1982-05-26 Prawo o adwokaturze"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "question": "Zgodnie z ustawą – Prawo o adwokaturze, zwyczajne zgromadzenie izby adwokackiej – zwoływane przez okręgową radę adwokacką – odbywa się:",
+      "options": {
+        "A": "raz do roku,",
+        "B": "raz na dwa lata,",
+        "C": "co najmniej jeden raz w danej kadencji okręgowej rady adwokackiej."
+      },
+      "correct": "A",
+      "legal_basis_raw": "art. 41 ust. 1 ustawy z dnia 26 maja 1982 r. – Prawo o adwokaturze",
+      "gold": [
+        {
+          "article": "41",
+          "article_sup": null,
+          "article_key": "arti.41",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "1982-05-26",
+          "act_name": "Prawo o adwokaturze",
+          "act_raw": "ustawa 1982-05-26 Prawo o adwokaturze"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "question": "Zgodnie z ustawą – Prawo o adwokaturze, w stosunku do aplikanta adwokackiego, uznanego za winnego popełnienia przewinienia dyscyplinarnego, nie orzeka się kary dyscyplinarnej w postaci:",
+      "options": {
+        "A": "nagany,",
+        "B": "kary pieniężnej,",
+        "C": "zawieszenia w czynnościach zawodowych."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 83 ust. 1 ustawy z dnia 26 maja 1982 r. – Prawo o adwokaturze",
+      "gold": [
+        {
+          "article": "83",
+          "article_sup": null,
+          "article_key": "arti.83",
+          "unit": "ust. 1",
+          "act_abbrev": null,
+          "act_date": "1982-05-26",
+          "act_name": "Prawo o adwokaturze",
+          "act_raw": "ustawa 1982-05-26 Prawo o adwokaturze"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "question": "Zgodnie z ustawą – Prawo o adwokaturze, sąd dyscyplinarny izby adwokackiej niezwłocznie przesyła odpis prawomocnego orzeczenia:",
+      "options": {
+        "A": "wyłącznie Ministrowi Sprawiedliwości,",
+        "B": "właściwej okręgowej radzie adwokackiej, Ministrowi Sprawiedliwości i Naczelnej Radzie Adwokackiej,",
+        "C": "wyłącznie Naczelnej Radzie Adwokackiej."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 95ł ust. 1 ustawy z dnia 26 maja 1982 r. – Prawo o adwokaturze",
+      "gold": [
+        {
+          "article": "95",
+          "article_sup": null,
+          "article_key": "arti.95",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "1982-05-26",
+          "act_name": "Prawo o adwokaturze",
+          "act_raw": "ustawa 1982-05-26 Prawo o adwokaturze"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "question": "Zgodnie z ustawą o radcach prawnych, wspólnikiem radcy prawnego w spółce cywilnej, w której radca prawny wykonuje swój zawód, może być:",
+      "options": {
+        "A": "księgowy,",
+        "B": "rzecznik patentowy,",
+        "C": "biegły rewident."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 8 ust. 1 pkt 1 ustawy z dnia 6 lipca 1982 r. o radcach prawnych",
+      "gold": [
+        {
+          "article": "8",
+          "article_sup": null,
+          "article_key": "arti.8",
+          "unit": "ust. 1 pkt 1",
+          "act_abbrev": null,
+          "act_date": "1982-07-06",
+          "act_name": "o radcach prawnych",
+          "act_raw": "ustawa 1982-07-06 o radcach prawnych"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "question": "Zgodnie z ustawą o radcach prawnych, pomoc prawna polegająca na występowaniu przez radcę prawnego w charakterze obrońcy w sprawach o przestępstwa i przestępstwa skarbowe może być świadczona w ramach wykonywania zawodu radcy prawnego:",
+      "options": {
+        "A": "wyłącznie na podstawie stosunku pracy,",
+        "B": "w kancelarii radcy prawnego, pod warunkiem że radca prawny nie pozostaje w stosunku pracy, z wyjątkiem zatrudnienia w urzędzie administracji publicznej,",
+        "C": "w kancelarii radcy prawnego, pod warunkiem że radca prawny nie pozostaje w stosunku pracy, z wyjątkiem zatrudnienia w charakterze pracownika badawczego i badawczo-dydaktycznego."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 8 ust. 6 ustawy z dnia 6 lipca 1982 r. o radcach prawnych",
+      "gold": [
+        {
+          "article": "8",
+          "article_sup": null,
+          "article_key": "arti.8",
+          "unit": "ust. 6",
+          "act_abbrev": null,
+          "act_date": "1982-07-06",
+          "act_name": "o radcach prawnych",
+          "act_raw": "ustawa 1982-07-06 o radcach prawnych"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "question": "Zgodnie z ustawą o radcach prawnych, nadużycie wolności słowa i pisma przez radcę prawnego przy wykonywaniu czynności zawodowych, stanowiące ściganą z oskarżenia prywatnego zniewagę lub zniesławienie strony, podlega ściganiu:",
+      "options": {
+        "A": "w drodze sądowej lub dyscyplinarnej, według wyboru pokrzywdzonego,",
+        "B": "tylko w drodze dyscyplinarnej,",
+        "C": "tylko w drodze sądowej."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 11 ust. 2 ustawy z dnia 6 lipca 1982 r. o radcach prawnych",
+      "gold": [
+        {
+          "article": "11",
+          "article_sup": null,
+          "article_key": "arti.11",
+          "unit": "ust. 2",
+          "act_abbrev": null,
+          "act_date": "1982-07-06",
+          "act_name": "o radcach prawnych",
+          "act_raw": "ustawa 1982-07-06 o radcach prawnych"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "question": "Zgodnie z ustawą o radcach prawnych, rada okręgowej izby radców prawnych jest uprawniona do kontroli i oceny wykonywania zawodu przez radcę prawnego; kontrolę przeprowadzają i oceny dokonują:",
+      "options": {
+        "A": "członkowie komisji rewizyjnej okręgowej izby radców prawnych,",
+        "B": "wizytatorzy powołani przez radę okręgowej izby radców prawnych spośród radców prawnych,",
+        "C": "wyłącznie biegli rewidenci."
+      },
+      "correct": "B",
+      "legal_basis_raw": "1 art. 22 ustawy z dnia 6 lipca 1982 r. o radcach prawnych",
+      "gold": [
+        {
+          "article": "22",
+          "article_sup": null,
+          "article_key": "arti.22",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "1982-07-06",
+          "act_name": "o radcach prawnych",
+          "act_raw": "ustawa 1982-07-06 o radcach prawnych"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "question": "Zgodnie z ustawą o radcach prawnych, prawo wykonywania zawodu radcy prawnego powstaje z chwilą:",
+      "options": {
+        "A": "doręczenia uchwały o pozytywnym wyniku egzaminu radcowskiego,",
+        "B": "dokonania wpisu na listę radców prawnych i zawarcia umowy ubezpieczenia od odpowiedzialności cywilnej za szkody wyrządzone przy wykonywaniu czynności zawodowych,",
+        "C": "dokonania wpisu na listę radców prawnych i złożenia ślubowania."
+      },
+      "correct": "C",
+      "legal_basis_raw": "art. 23 ustawy z dnia 6 lipca 1982 r. o radcach prawnych",
+      "gold": [
+        {
+          "article": "23",
+          "article_sup": null,
+          "article_key": "arti.23",
+          "unit": null,
+          "act_abbrev": null,
+          "act_date": "1982-07-06",
+          "act_name": "o radcach prawnych",
+          "act_raw": "ustawa 1982-07-06 o radcach prawnych"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "question": "Zgodnie z ustawą o Rzeczniku Praw Obywatelskich, ta sama osoba:",
+      "options": {
+        "A": "nie może być Rzecznikiem Praw Obywatelskich więcej niż przez jedną kadencję,",
+        "B": "nie może być Rzecznikiem Praw Obywatelskich więcej niż przez dwie kadencje,",
+        "C": "może być Rzecznikiem Praw Obywatelskich bez ograniczenia liczby kadencji."
+      },
+      "correct": "B",
+      "legal_basis_raw": "art. 5 ust. 2 ustawy z dnia 15 lipca 1987 r. o Rzeczniku Praw Obywatelskich",
+      "gold": [
+        {
+          "article": "5",
+          "article_sup": null,
+          "article_key": "arti.5",
+          "unit": "ust. 2",
+          "act_abbrev": null,
+          "act_date": "1987-07-15",
+          "act_name": "o Rzeczniku Praw Obywatelskich",
+          "act_raw": "ustawa 1987-07-15 o Rzeczniku Praw Obywatelskich"
+        }
+      ]
+    }
+  ]
+}

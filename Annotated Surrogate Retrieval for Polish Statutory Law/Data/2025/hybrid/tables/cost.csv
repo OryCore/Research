@@ -1,0 +1,6 @@
+method,latency_p50_ms,latency_p95_ms,retrieval_p50_ms,llm_calls_per_q,tokens_in_per_q,tokens_out_per_q,usd_per_100q
+dense-surro-rrf,731,1129,42,1,3955,50,0.106
+triad,795,1085,109,1,4030,49,0.108
+rrf,809,1183,107,1,4283,49,0.114
+dense-prf,714,961,51,1,3877,49,0.104
+dense-surro-rescore,701,1089,37,1,3995,49,0.107
