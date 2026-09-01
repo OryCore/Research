@@ -2,11 +2,9 @@
 
 Data, results and evaluation artefacts for my research projects.
 
-| Project                                                                                                                        | Description                                                                                 | Paper                                                              |
-| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| [Annotated Surrogate Retrieval for Polish Statutory Law](./Annotated%20Surrogate%20Retrieval%20for%20Polish%20Statutory%20Law) | Retrieval over 82,508 Polish statutory articles, evaluated on 300 bar examination questions | [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX) <!-- TODO --> |
-
-<!-- TODO: add future projects as rows -->
+| Project                                                                                                                        | Description                                                                                 | Paper                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| [Annotated Surrogate Retrieval for Polish Statutory Law](./Annotated%20Surrogate%20Retrieval%20for%20Polish%20Statutory%20Law) | Retrieval over 82,508 Polish statutory articles, evaluated on 300 bar examination questions | [arXiv:2608.30929](https://doi.org/10.48550/arXiv.2608.30929) |
 
 Each project folder has its own README describing its layout and metrics.
 

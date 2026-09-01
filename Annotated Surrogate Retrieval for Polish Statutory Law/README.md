@@ -2,7 +2,7 @@
 
 Benchmark, per-question outputs and paired significance tests for the paper.
 
-**Paper:** [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX) <!-- TODO: fill in after posting -->
+**Paper:** [arXiv:2608.30929](https://doi.org/10.48550/arXiv.2608.30929)
 
 ## Layout
 
@@ -74,11 +74,13 @@ Justice; statutory texts are public.
 ## Citation
 
 ```bibtex
-@misc{cengiz2026surrogate,
-  title         = {Annotated Surrogate Retrieval for Polish Statutory Law},
-  author        = {Cengiz, Orkun Yi\u{g}it},
-  year          = {2026},
-  eprint        = {XXXX.XXXXX},
-  archivePrefix = {arXiv}
+@misc{cengiz2026annotatedsurrogateretrievalpolish,
+      title={Annotated Surrogate Retrieval for Polish Statutory Law},
+      author={Orkun Yiğit Cengiz},
+      year={2026},
+      eprint={2608.30929},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2608.30929},
 }
 ```
